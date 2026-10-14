@@ -1,0 +1,82 @@
+{
+  "CC0 1.0": {
+    "descripcion": "Renuncia completa a derechos de autor y derechos conexos; el dataset puede usarse sin restricciones y sin atribución.",
+    "fuente_principal": "Creative Commons (CC0 1.0 Universal Public Domain Dedication)"
+  },
+  "Open Data": {
+    "descripcion": "Los datos pueden ser libremente usados, reutilizados y redistribuidos por cualquiera, sujeto como máximo a atribución. (Incluye información pública, contenidos en dominio público o de uso autorizado sin licencia estándar).",
+    "fuente_principal": "Categoría residual basada en el análisis de los términos y condiciones de las publicaciones web y los criterios de gestión de riesgo de LatamGPT v1.0"
+  },
+  "ODC-By v1.0": {
+    "descripcion": "Permite copiar, distribuir, transmitir y adaptar la base de datos, siempre que se atribuya al autor original.",
+    "fuente_principal": "Open Data Commons (ODC-By License v1.0)"
+  },
+  "Apache 2.0": {
+    "descripcion": "Permite uso, reproducción, modificación y distribución, incluyendo uso comercial, con concesión expresa de derechos de patente y obligación de atribución.",
+    "fuente_principal": "Apache Software Foundation (Apache License 2.0)"
+  },
+  "CC BY 2.0": {
+    "descripcion": "Permite distribuir, remezclar, adaptar y usar comercialmente, siempre que se otorgue el crédito correspondiente.",
+    "fuente_principal": "Creative Commons (CC BY 2.0)"
+  },
+  "CC BY 2.5 AR": {
+    "descripcion": "Igual que CC BY: uso, distribución y adaptación permitidos con atribución, adaptado a jurisdicción argentina.",
+    "fuente_principal": "Creative Commons (CC BY 2.5 Argentina)"
+  },
+  "CC BY 2.5 PE": {
+    "descripcion": "Igual que CC BY: uso, distribución y adaptación permitidos con atribución, adaptado a jurisdicción peruana.",
+    "fuente_principal": "Creative Commons (CC BY 2.5 Peru)"
+  },
+  "CC BY 3.0 BR": {
+    "descripcion": "Igual que CC BY: permite uso comercial y modificaciones con atribución, adaptado a Brasil.",
+    "fuente_principal": "Creative Commons (CC BY 3.0 Brazil)"
+  },
+  "CC BY 4.0": {
+    "descripcion": "Permite compartir, copiar, distribuir, adaptar, incluyendo uso comercial y obligación de atribución.",
+    "fuente_principal": "Creative Commons (CC BY 4.0)"
+  },
+  "CC BY-SA 3.0": {
+    "descripcion": "Permite adaptar y usar comercialmente, siempre que los dataset derivados se licencien bajo los mismos términos.",
+    "fuente_principal": "Creative Commons (CC BY-SA 3.0)"
+  },
+  "CC BY-SA 4.0": {
+    "descripcion": "Permite compartir y adaptar con atribución, exigiendo que los dataset derivados mantengan la misma licencia.",
+    "fuente_principal": "Creative Commons (CC BY-SA 4.0)"
+  },
+  "CC BY-ND 3.0": {
+    "descripcion": "Permite redistribución, incluyendo uso comercial, pero no permite modificar el dataset.",
+    "fuente_principal": "Creative Commons (CC BY-ND 3.0)"
+  },
+  "CC BY-ND 4.0": {
+    "descripcion": "Permite copiar y redistribuir sin modificaciones, incluso comercialmente, con atribución.",
+    "fuente_principal": "Creative Commons (CC BY-ND 4.0)"
+  },
+  "CC BY-NC 4.0": {
+    "descripcion": "Permite adaptar y compartir el dataset, pero solo para fines no comerciales, con atribución.",
+    "fuente_principal": "Creative Commons (CC BY-NC 4.0)"
+  },
+  "CC BY-NC 3.0 IGO": {
+    "descripcion": "Permite uso y adaptación solo para fines no comerciales, diseñado para organizaciones intergubernamentales.",
+    "fuente_principal": "Creative Commons (CC BY-NC 3.0 IGO)"
+  },
+  "CC BY-NC-SA 3.0": {
+    "descripcion": "Permite adaptar para fines no comerciales, exigiendo atribución y compartir bajo la misma licencia.",
+    "fuente_principal": "Creative Commons (CC BY-NC-SA 3.0)"
+  },
+  "CC BY-NC-SA 4.0": {
+    "descripcion": "Permite compartir y adaptar no comercialmente, con obligación de licenciar derivados igual.",
+    "fuente_principal": "Creative Commons (CC BY-NC-SA 4.0)"
+  },
+  "CC BY-NC-ND 4.0": {
+    "descripcion": "Permite descargar y compartir el dataset con atribución, pero no modificarlo ni usarlo comercialmente.",
+    "fuente_principal": "Creative Commons (CC BY-NC-ND 4.0)"
+  },
+  "Non-Commercial / Research Only": {
+    "descripcion": "Uso limitado exclusivamente a fines no comerciales y/o de investigación; condiciones definidas por el proveedor.",
+    "fuente_principal": "Términos específicos del proveedor/licenciante"
+  },
+  "Restricted": {
+    "descripcion": "Uso sujeto a restricciones específicas; requiere autorización explícita para reutilización o distribución.",
+    "fuente_principal": "Términos contractuales del titular"
+  }
+}

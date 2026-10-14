@@ -1,0 +1,468 @@
+url,licencia_detectada,licencia_asignada_llm,justificacion_asignacion_llm
+https://github.com/togethercomputer/RedPajama-Data,Apache-2.0,Apache 2.0,"El texto del archivo LICENSE corresponde exactamente a la licencia Apache 2.0, que permite uso, reproducción, modificación y distribución, incluyendo uso comercial, con concesión expresa de derechos de patente y obligación de atribución."
+https://huggingface.co/datasets/oscar-corpus/colossal-oscar-1.0,cc0-1.0,CC0 1.0,"El texto menciona ""cc0-1.0"", lo que indica una renuncia completa a derechos de autor y derechos conexos, permitiendo el uso sin restricciones y sin atribución."
+https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned,cc0-1.0,CC0 1.0,"El texto menciona ""cc0-1.0"", que corresponde a la renuncia completa a derechos de autor y derechos conexos, permitiendo el uso sin restricciones y sin atribución."
+https://huggingface.co/datasets/allenai/c4,odc-by,ODC-By v1.0,"El texto ""odc-by"" indica claramente que la licencia es la Open Database License (ODC-By), que requiere atribución al autor original."
+https://huggingface.co/datasets/bigcode/the-stack,other,Ninguna coincide,El texto proporcionado es insuficiente para determinar una licencia específica.
+https://huggingface.co/datasets/HuggingFaceFW/fineweb-2,odc-by,ODC-By v1.0,"El texto ""odc-by"" indica claramente que la licencia es la Open Database License (ODC-By), que requiere atribución al autor original."
+https://twitter.com,Términos y condiciones (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una parte de los Términos de Servicio y la Política de Privacidad, pero no especifica una licencia para el uso de datos o contenido."
+https://oscar-project.org/,Licencia mencionada (ver comentarios),CC0 1.0,"El texto indica que ""The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law."" y ""You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission."" Esto corresponde a la licencia CC0 1.0, que renuncia a todos los derechos de autor y derechos conexos, permitiendo el uso sin restricciones y sin atribución."
+https://huggingface.co/datasets/dominguesm/CC-MAIN-2023-23?row=0,cc-by-4.0,CC BY 4.0,"El texto ""cc-by-4.0"" indica claramente que la licencia es Creative Commons Attribution 4.0, que permite compartir, copiar, distribuir, adaptar, incluyendo uso comercial, siempre que se otorgue la atribución correspondiente."
+https://huggingface.co/datasets/Itau-Unibanco/aroeira,cc-by-nc-4.0,CC BY-NC 4.0,"El texto menciona explícitamente ""cc-by-nc-4.0"", que corresponde a la licencia Creative Commons Attribution-NonCommercial 4.0. Esta licencia permite adaptar y compartir el dataset, pero solo para fines no comerciales, con atribución."
+https://www.lareferencia.info/,Licencia mencionada (ver comentarios),CC BY 4.0,"El texto permite compartir y adaptar el material para cualquier propósito, incluyendo uso comercial, siempre que se otorgue el crédito correspondiente y no se apliquen restricciones adicionales."
+https://huggingface.co/datasets/eduagarcia/LegalPT_dedup,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://huggingface.co/datasets/statmt/cc100,unknown,Ninguna coincide,El texto proporcionado es insuficiente para determinar la licencia aplicable.
+https://huggingface.co/datasets/pln-udelar/uy22,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://huggingface.co/datasets/nicholasKluge/Pt-Corpus-Instruct,other,Ninguna coincide,El texto proporcionado es insuficiente para determinar una licencia específica.
+https://huggingface.co/datasets/eduagarcia/cc_news_pt,unknown,Ninguna coincide,El texto proporcionado es insuficiente para determinar la licencia aplicable.
+Universidad de los Andes (Rubén Manrique),No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.uchile.cl/,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto proporcionado es una política de derechos de autor y no especifica una licencia particular para los datos o contenido. Menciona que los autores retienen los derechos de autor y pueden elegir diferentes niveles de licencias Creative Commons, pero no se indica una licencia específica."
+https://huggingface.co/datasets/deepmind/code_contests,cc-by-4.0,CC BY 4.0,"El texto ""cc-by-4.0"" indica claramente que la licencia es Creative Commons Attribution 4.0, que permite compartir, copiar, distribuir y adaptar el material, incluyendo uso comercial, siempre que se otorgue el crédito correspondiente."
+Home — Ministério da Agricultura e Pecuária,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://huggingface.co/datasets/joelniklaus/MultiLegalPile_Wikipedia_Filtered/viewer/pt_all,cc-by-4.0,CC BY 4.0,"El texto ""cc-by-4.0"" indica claramente que la licencia es Creative Commons Attribution 4.0, que permite compartir, copiar, distribuir y adaptar el material, incluyendo uso comercial, siempre que se otorgue el crédito correspondiente."
+https://repositorio.unb.br/,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.ufc.br/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+Universidad Javeriana (Luis Moreno),No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://search.scielo.org/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://ri.conicet.gov.ar/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.uta.edu.ec,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+http://sb.uta.cl/sbuta/repositorio-digital-uta/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://udelar.edu.uy/portal/,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto solo muestra el copyright sin especificar permisos o restricciones de uso, distribución o modificación del contenido."
+https://www.archivonacional.gob.cl/,Términos y condiciones (sin licencia explícita),Ninguna coincide,"El texto proporcionado no especifica una licencia para el uso de datos o contenido, sino que se centra en los términos y condiciones generales de uso del portal web, incluyendo la reserva de derechos para modificar el contenido y la aplicación de leyes chilenas."
+Bibliotecas UC (Evelyn Didier-Rodrigo Castro),No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://biblioteca-repositorio.clacso.edu.ar/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.sciencedirect.com/science/article/abs/pii/S030645732030861X?via%3Dihub,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+http://repositorio.ucsg.edu.ec/,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto proporcionado solo incluye un aviso de derechos de autor y no contiene información suficiente sobre los términos de uso, licencias o permisos para el contenido."
+https://www.archivogeneral.gov.co/,Política de datos (sin licencia explícita),Ninguna coincide,"El texto es una política de tratamiento y protección de datos personales, sin mención específica a licencias de datos o condiciones de uso y reutilización de un dataset."
+https://rdu.unc.edu.ar/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.utn.edu.ec/,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://www.scielo.cl/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.uoh.cl/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositoriodigital.uct.cl/home,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositoriobibliotecas.uv.cl/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.usm.cl/home,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.uta.edu.ec/home,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.ucsc.cl/home,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+http://saber.ucv.ve/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.ausjal.org/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL) para el software WordPress, pero no especifica una licencia para datos o contenido, por lo que no coincide con ninguna de las licencias de datos listadas."
+"INAOE (Manuel Montes, Enrique Sucar)",No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.uasb.edu.ec/,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://www.bcra.gob.ar/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.archivoybibliotecanacionales.org.bo/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.bibliotecanacional.gov.co/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.senado.gob.ar/prensa/eventos,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.binasss.sa.cr/opac-ms/shared/biblio_search.php,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado es la licencia GNU General Public License (GPL) versión 2, que se aplica a software y no a datos o conjuntos de datos. No hay mención específica de licencias de datos en el texto."
+https://mnav.gub.uy/,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto proporcionado es insuficiente y no contiene información específica sobre los términos de uso, licenciamiento o distribución de datos."
+https://www.teatrosolis.org.uy/home,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://salazitarrosa.montevideo.gub.uy/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL) para el software WordPress, pero no especifica una licencia para datos o contenido, por lo que no coincide con ninguna de las licencias de datos listadas."
+https://sodre.gub.uy/institucional/auditorio-nacional-adela-reta/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL) para el software WordPress, pero no menciona directamente una licencia para datos o contenido, lo cual es el enfoque de la lista de licencias proporcionada."
+https://autores.uy,Licencia mencionada (ver comentarios),CC BY-SA 4.0,"El texto permite compartir y adaptar el material, incluso con fines comerciales, siempre que se otorgue atribución y las obras derivadas se distribuyan bajo la misma licencia."
+https://www.agadu.org/,Licencia mencionada (ver comentarios),Restricted,"El texto indica que el uso de repertorio musical en fiestas privadas requiere una autorización explícita y pago a AGADU, lo que implica restricciones específicas para el uso."
+https://www.daecpu.org.uy/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.antelarena.com.uy/,Política de privacidad (sin licencia explícita),,Sin texto de licencia/términos/privacidad detectado.
+http://repositorio.casadelacultura.gob.ec/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.utmachala.edu.ec/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+Freddy Vilches,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://parlamento.gub.uy/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.bibliotecanacional.gov.co/es-co/colecciones/bibliografica/libro-digital,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.uide.edu.ec/,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto proporcionado solo incluye un aviso de derechos de autor y no contiene información suficiente sobre los términos de uso, licencias o permisos para el contenido."
+https://repositorio.uti.edu.ec/,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.ulima.edu.pe/,Copyright / Todos los derechos reservados,Ninguna coincide,"La frase ""Todos los derechos reservados"" no especifica una licencia y no proporciona información sobre los permisos de uso, reutilización o distribución del contenido."
+https://repositorio.uteq.edu.ec/,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://www.busqueda.com.uy/,Política de privacidad (sin licencia explícita),Non-Commercial / Research Only,"El texto especifica que ""Los usuarios se comprometen a utilizar los servicios o contenidos exclusivamente para su uso personal, y a no realizar ni directa ni indirectamente una explotación comercial de los mismos."""
+https://www.senado.gob.ar/parlamentario/sesiones/busquedaTac,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.canalrural.com.br/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.ufam.edu.br/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.gub.uy/institucion-nacional-derechos-humanos-uruguay/,Términos y condiciones (sin licencia explícita),Open Data,"""Salvo indicación en contrario, la información contenida en el Portal será considerada de carácter público."" Esto sugiere que los datos pueden ser usados libremente, sujeto a atribución si se indica explícitamente."
+https://vidasilvestre.org.uy/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.unicef.org/uruguay/,Aviso legal (sin licencia explícita),Restricted,"El texto indica que la utilización del material de UNICEF en Internet para cualquier propósito, incluida una nueva presentación o compilación, está prohibida a menos que se obtenga previamente un permiso por escrito, lo que implica restricciones específicas y la necesidad de autorización explícita para reutilización o distribución."
+https://www.cudecoop.coop/cudecoop/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL) para el software WordPress, pero no se menciona ninguna licencia específica para datos o contenido."
+https://igm.gub.uy/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://sitiosdememoria.uy/,Licencia mencionada (ver comentarios),CC BY-SA 4.0,"El texto permite compartir y adaptar el material, incluso con fines comerciales, siempre que se otorgue atribución y las obras derivadas se distribuyan bajo la misma licencia."
+http://archivobiblioteca.asambleanacional.gob.ec/aton,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+http://archivobiblioteca.asambleanacional.gob.ec/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.sce.gob.ec/sitio/resoluciones-sce/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+http://www.pge.gob.ec/index.php/biblioteca/resoluciones,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.cortenacional.gob.ec/cnj/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.memoriachilena.gob.cl/602/w3-channel.html,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto ""Algunos derechos reservados"" no proporciona suficiente información para determinar una licencia específica de la lista proporcionada."
+https://biblioteca.armada.mil.ec/omeka/collections/browse,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://cejamericas.org/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.gub.uy/,Términos y condiciones (sin licencia explícita),Open Data,"La información contenida en el Portal será considerada de carácter público, según se indica en la sección 3, lo que implica que puede ser libremente usada, reutilizada y redistribuida, sujeto a atribución si se requiere."
+http://bjn.poderjudicial.gub.uy/BJNPUBLICA/busquedaSimple.seam,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+http://www.diputados.gub.uy/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.acau.gub.uy/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.camara.cl/prensa/prensa_cms.aspx,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.cervantesvirtual.com/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.senado.gov.py/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.utalca.cl/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.impo.com.uy,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.eppetroecuador.ec/,Política de datos (sin licencia explícita),Ninguna coincide,El texto proporcionado parece ser un fragmento de un archivo PDF y no contiene información relevante sobre licencias de datos o términos y condiciones de uso.
+https://www.antel.com.uy/,Términos y condiciones (sin licencia explícita),Ninguna coincide,El texto proporcionado no contiene información específica sobre licencias de datos o condiciones de uso de datos. Se trata principalmente de un menú de navegación de un sitio web institucional.
+https://portal.ute.com.uy/,Términos y condiciones (sin licencia explícita),Open Data,"El texto indica que la información contenida en el sitio es de carácter público y puede ser utilizada, reutilizada y redistribuida, siempre que se mencione la fuente (UTE). No se mencionan restricciones adicionales más allá de la atribución."
+http://www.ose.com.uy/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.ancap.com.uy/,Términos y condiciones (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una mención a una política de privacidad y términos de uso, pero no contiene información específica sobre la licencia de los datos."
+https://www.latu.org.uy/,Términos y condiciones (sin licencia explícita),Ninguna coincide,El texto proporcionado no contiene información específica sobre licencias de datos o términos y condiciones de uso de datos.
+https://www.conicyt.gub.uy/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.anii.org.uy/,Términos y condiciones (sin licencia explícita),Ninguna coincide,El texto proporcionado es una política de privacidad y términos de uso que se centra en el tratamiento de datos personales y el uso de servicios específicos de la Agencia Nacional de Investigación e Innovación. No contiene información sobre la licencia de uso de datos o contenido.
+https://biblioteca.defensoria.gob.ec,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+http://www.fubb.org.uy/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.cou.org.uy/cou/es/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://onfi.org.uy/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL) para el software WordPress, pero no especifica una licencia para datos o contenido, por lo que no coincide con ninguna de las licencias de datos listadas."
+https://www.auf.org.uy/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto no contiene información relevante sobre licencias de datos, términos y condiciones de uso, o políticas de privacidad."
+https://roa.cedia.edu.ec/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revista.uniandes.edu.ec/ojs/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.uees.edu.ec/,Licencia mencionada (ver comentarios),CC BY-NC 4.0,"El texto permite compartir y adaptar el material, siempre y cuando se otorgue atribución y no se use con fines comerciales, lo cual corresponde a los términos de la licencia CC BY-NC 4.0."
+https://academiahistoria.org.ec/index.php/boletinesANHE/index,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://hcdn.gob.ar,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://cicom.ucr.ac.cr/_publicaciones/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.ejercito.cl/biblioteca,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.oas.org/ext/es/principal/documentos/publicaciones,Términos y condiciones (sin licencia explícita),Ninguna coincide,El texto proporcionado es una lista de enlaces y temas de la Organización de los Estados Americanos (OEA) y no contiene información específica sobre licencias de datos o términos y condiciones de uso.
+https://chileestuyo.cl/que-hacer/naturaleza/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.kaggle.com/datasets/rtatman/brazilian-portuguese-literature-corpus,Licencia mencionada (ver comentarios),CC0 1.0,"El texto claramente indica que el trabajo ha sido dedicado al dominio público, renunciando a todos los derechos de autor y derechos conexos, permitiendo copiar, modificar, distribuir y realizar el trabajo, incluso con fines comerciales, sin necesidad de pedir permiso."
+https://institutojubones.edu.ec/ojs/index.php/portal/issue/archive,Licencia mencionada (ver comentarios),CC BY-NC-SA 4.0,"El texto permite compartir y adaptar el material, siempre y cuando se otorgue atribución, el uso sea no comercial, y las obras derivadas se distribuyan bajo la misma licencia."
+https://www.pjud.cl/,Términos y condiciones (sin licencia explícita),Non-Commercial / Research Only,"El texto permite el uso, acceso, impresión, reproducción y almacenamiento de la información para fines particulares o académicos, pero prohíbe la reproducción, modificación, distribución, transmisión o uso para fines distintos a estos. Además, se requiere atribución a la fuente."
+https://www.chile.travel/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.museos.gub.uy/,Copyright / Todos los derechos reservados,Ninguna coincide,El texto solo indica el copyright sin proporcionar detalles sobre la licencia o los términos de uso del contenido.
+https://uruguaynatural.com/es/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.gub.uy/ministerio-turismo/,Términos y condiciones (sin licencia explícita),Open Data,"La cláusula ""Salvo indicación en contrario, la información contenida en el Portal será considerada de carácter público"" sugiere que los datos pueden ser usados libremente, sujeto a atribución si se indica explícitamente."
+https://www.uruguayxxi.gub.uy/es/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.descubrimontevideo.uy/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.marcachile.cl/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://publicaciones.banrepcultural.org/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://cigefi.ucr.ac.cr/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.asamblea.go.cr/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.cnabrasil.org.br/publicacoes,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política de privacidad que se centra en la protección y uso de datos personales, y no especifica una licencia para el uso, distribución o modificación de un conjunto de datos."
+https://suia.ambiente.gob.ec/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.ute.edu.ec/index.php/tsafiqui/issue/archive,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistaczambos.utelvtsd.edu.ec/index.php/,Licencia mencionada (ver comentarios),CC BY-NC 4.0,"El texto permite compartir y adaptar el material, siempre y cuando se otorgue atribución y no se use con fines comerciales, lo cual corresponde a los términos de la licencia CC BY-NC 4.0."
+https://repositorio.ufro.cl/s/repositorio-ufro/page/welcome,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado corresponde a la licencia GNU General Public License (GPL) versión 3, que no está incluida en la lista de licencias proporcionada."
+https://www.diputados.gov.py/index.php/noticias,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://coch.cl/,Copyright / Todos los derechos reservados,Restricted,"La frase ""Todos los derechos reservados"" indica que el uso del contenido está sujeto a restricciones específicas y requiere autorización explícita para reutilización o distribución."
+https://www.gob.mx/conade,Términos y condiciones (sin licencia explícita),CC BY-NC-ND 4.0,"El texto permite visualizar y descargar materiales solo para uso personal y no comercial, y prohíbe modificar, reproducir, mostrar públicamente o comercialmente, o transferir los materiales a terceros."
+https://repositorio.conare.ac.cr/homecat,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+http://www.cubadebate.cu/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://mediospublicos.uy/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.subrayado.com.uy/,Términos y condiciones (sin licencia explícita),Restricted,"La cláusula 7.2 prohíbe explícitamente la reproducción, distribución y comunicación pública de los contenidos con fines comerciales sin autorización, lo que implica que cualquier uso más allá del personal y privado requiere autorización explícita."
+https://www.telenoche.com.uy/,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto solo indica ""Todos los derechos reservados"" sin especificar permisos de uso, reutilización o distribución."
+https://www.teledoce.com/telemundo/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.uypress.net/home,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.carasycaretas.com.uy/,Términos y condiciones (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política de privacidad y términos de uso que se centra en la protección de datos personales y el uso de cookies, sin mencionar ninguna licencia específica para el uso de datos o contenido."
+https://grupormultimedio.com/,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es un Código Ético y de Privacidad que establece pautas de conducta para los empleados y profesionales del Grupo R Multimedio, pero no contiene información específica sobre la licencia de uso de datos o contenido."
+https://www.sudestada.com.uy/10877/Inicio,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.eltelegrafo.com/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://180.com.uy/,Copyright / Todos los derechos reservados,Restricted,"""Todos los derechos reservados"" indica que el uso está sujeto a restricciones específicas y requiere autorización explícita para reutilización o distribución."
+https://www.cubarte.cult.cu/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.amexcomp.mx/,Términos y condiciones (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una declaración de derechos reservados y una política de privacidad, sin mencionar ninguna licencia específica para el uso de datos."
+https://www.cultura.gob.sv,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://transparencia.unamba.edu.pe/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.elobservador.com.uy/,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una Política de Privacidad que se centra en el tratamiento de datos personales y no especifica una licencia para el uso, distribución o modificación de un dataset o contenido."
+https://brecha.com.uy/,Términos y condiciones (sin licencia explícita),Restricted,"El texto prohíbe archivar, divulgar, copiar, distribuir, modificar o usar los contenidos sin autorización escrita, y limita el uso a fines exclusivamente no comerciales y personales."
+https://www.lamañana.uy/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL) para el software WordPress, pero no especifica una licencia para datos o contenido, por lo que no coincide con ninguna de las licencias de datos listadas."
+https://repositorio.cultura.gob.pe/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://docs.google.com/spreadsheets/d/1Hjt9yWNTsWDPS98LNnNkcbKfdaHCko_d/edit?gid=1025958586#gid=1025958586,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.umsa.bo/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+http://www.inder.gob.cu/,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto ""Todos los derechos reservados © 2026 Inder"" no proporciona información suficiente sobre los términos de uso, reutilización o distribución de los datos."
+http://uruguayeduca.anep.edu.uy/,Términos y condiciones (sin licencia explícita),CC BY-SA 4.0,"El texto especifica que los contenidos están bajo la licencia Creative Commons Atribución CompartirIgual 4.0 Internacional (CC BY-SA 4.0), permitiendo compartir y adaptar el material con atribución y bajo la misma licencia."
+https://repositorio.utem.cl/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.cnd.org.uy/,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política de privacidad que se centra en el tratamiento y protección de datos personales, sin mencionar licencias de datos o condiciones de uso para datasets."
+https://www.dgeip.edu.uy/documentos/2023/portal/index.html,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.asse.com.uy/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://ceilab.ceibal.edu.uy/,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política de privacidad y términos y condiciones de uso, pero no especifica una licencia para el uso de datos o contenido."
+https://huggingface.co/datasets/carolina-c4ai/corpus-carolina,cc-by-4.0,CC BY 4.0,"El texto ""cc-by-4.0"" indica claramente que la licencia es Creative Commons Attribution 4.0, que permite compartir, copiar, distribuir y adaptar el material, incluyendo uso comercial, siempre que se otorgue el crédito correspondiente."
+https://dplf.org,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL) para el software WordPress, pero no especifica una licencia para datos o contenido, por lo que no coincide con ninguna de las licencias de datos listadas."
+https://www.cncs.com.uy/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://dspace.ucuenca.edu.ec/home,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.etcgroup.org,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://data.mendeley.com/datasets/tmwrd45m7x/2,Licencia mencionada (ver comentarios),CC BY 4.0,"El texto permite compartir y adaptar el material para cualquier propósito, incluyendo uso comercial, siempre que se otorgue el crédito correspondiente y no se apliquen restricciones adicionales que limiten lo que la licencia permite."
+www.asamblea.go.cr,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://huggingface.co/datasets/stanford-oval/ccnews,Términos y condiciones (sin licencia explícita),Restricted,"La licencia otorgada es limitada, no asignable, no transferible, no sublicenciable y no exclusiva, sujeta a los términos y condiciones de los ToU, y se reservan todos los demás derechos no expresamente concedidos."
+https://fenaude.cl/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.ineed.edu.uy/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://g5noticias.cl/categoria/nacional,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.hondudiario.com/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://repositorio.iaen.edu.ec/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.cfe.edu.uy/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.bicentenario.gob.pe/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://huggingface.co/datasets/HiTZ/Multilingual-Medical-Corpus,apache-2.0,Apache 2.0,"El texto menciona ""apache-2.0"", lo que indica que los datos están licenciados bajo los términos de la licencia Apache 2.0."
+https://huggingface.co/datasets/Flaglab/latam-xix,mit,Ninguna coincide,"El texto ""mit"" es insuficiente para determinar una licencia específica de la lista proporcionada."
+https://www.conacyt.gov.py/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://ibce.org.bo/index.php,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://bnjm.cu/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+Alianza biblioteca UC (bucket),No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.snd.gov.py/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://agenciadenoticias.ibge.gov.br/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.caf.com/es/actualidad/noticias/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://iris.paho.org/,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://udelar.edu.uy/,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto solo muestra el copyright sin especificar términos de uso, licencias o permisos para el dataset."
+https://repositorio.iis.ucr.ac.cr/home,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+"Alianza ujaveriana Colombia (tweets Perú, Chile y Colombia)",No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.udec.cl/,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://ieeexplore.ieee.org/abstract/document/9997766,Términos y condiciones (sin licencia explícita),Ninguna coincide,"El texto solo menciona el copyright y la aceptación de términos y condiciones, sin especificar licencias de uso para datos o contenido."
+https://revistas.utp.ac.pa/index.php/apanac/article/view/3959,Licencia mencionada (ver comentarios),CC BY-NC-SA 4.0,"El texto permite compartir y adaptar el material, siempre y cuando se otorgue atribución, no se use con fines comerciales, y las obras derivadas se distribuyan bajo la misma licencia."
+https://preseea.uah.es/corpus-preseea,Licencia mencionada (ver comentarios),CC BY-NC-ND 4.0,"El texto permite compartir el material en cualquier medio o formato, siempre y cuando se dé crédito, no se use con fines comerciales y no se distribuyan versiones modificadas."
+https://ind.cl/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://infojus.com.ar/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL) para el software WordPress, pero no especifica una licencia para datos o contenido, por lo que no coincide con ninguna de las licencias de datos listadas."
+http://repositorio.uasb.edu.bo:8080/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://iniees.vrip.upnfm.edu.hn/ojs/index.php/Paradigma,Licencia mencionada (ver comentarios),CC BY-NC-ND 4.0,"El texto especifica que se distribuye bajo la Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0), permitiendo descargar y compartir la obra con atribución, pero no su uso comercial ni la generación de obras derivadas."
+https://huggingface.co/datasets/CohereLabs/aya_collection_language_split/viewer/spanish,apache-2.0,Apache 2.0,"El texto menciona ""apache-2.0"", lo que indica que los datos están licenciados bajo los términos de la licencia Apache 2.0."
+https://huggingface.co/datasets/marianbasti/boletin-oficial-argentina,apache-2.0,Apache 2.0,"El texto menciona ""apache-2.0"", lo que indica que los datos están licenciados bajo los términos de la licencia Apache 2.0."
+https://huggingface.co/datasets/FrancophonIA/W2C,cc-by-sa-3.0,CC BY-SA 3.0,"El texto menciona explícitamente ""cc-by-sa-3.0"", que corresponde a la licencia Creative Commons Attribution-ShareAlike 3.0."
+https://huggingface.co/datasets/finiteautomata/news-argentina,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://huggingface.co/datasets/somosnlp/Reglamento_Aeronautico_Colombiano_2024GemmaQA,apache-2.0,Apache 2.0,"El texto menciona ""apache-2.0"", lo que indica que los datos están licenciados bajo la licencia Apache 2.0, que permite uso, reproducción, modificación y distribución, incluyendo uso comercial, con concesión expresa de derechos de patente y obligación de atribución."
+https://huggingface.co/datasets/Manuel/sentencias-corte-cons-colombia-1992-2021,cc-by-4.0,CC BY 4.0,"El texto ""cc-by-4.0"" indica claramente que la licencia es Creative Commons Attribution 4.0, que permite compartir, copiar, distribuir y adaptar el material, incluyendo uso comercial, siempre que se otorgue el crédito correspondiente."
+https://huggingface.co/datasets/jorgeortizfuentes/chilean-spanish-corpus,cc-by-sa-4.0,CC BY-SA 4.0,"El texto menciona explícitamente ""cc-by-sa-4.0"", que corresponde a la licencia Creative Commons Attribution-ShareAlike 4.0."
+https://www.gob.cl/noticias,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.ispch.gob.cl/noticia,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.scidev.net/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://agenciabrasil.ebc.com.br/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado corresponde a la licencia GNU General Public License (GPL) versión 2, que no está incluida en la lista de licencias proporcionada."
+https://www.camara.cl/index.aspx,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.gob.mx/inpi,Términos y condiciones (sin licencia explícita),CC BY-NC-ND 4.0,"El texto permite visualizar y descargar materiales solo para uso personal y no comercial, y prohíbe modificar, reproducir, mostrar públicamente o comercialmente, o transferir los materiales a terceros."
+https://institutolibertad.cl,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://ojarasca.jornada.com.mx/ojarasca/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://cultura.gov.py/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.ip.gov.py/ip/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.ministeriodelinterior.gob.ec/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+http://www.ivss.gov.ve/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://iwgia.org,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.colegiomedico.org.uy/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://poderjudicial.pr/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.xn--lamaana-7za.uy/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://revistapolitecnica.epn.edu.ec/ojs2/index.php/revista_politecnica2,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.conab.gov.br/info-agro/safras/graos,Licencia mencionada (ver comentarios),CC BY-ND 3.0,"El texto permite compartir y redistribuir el material en cualquier medio o formato, incluso comercialmente, siempre que se dé el crédito correspondiente y no se realicen modificaciones del material original."
+https://revistaaisthesis.uc.cl/index.php/RAIT/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://ojs.uc.cl/index.php/aporia/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto es una política de privacidad que no menciona licencias de datos ni condiciones de uso, distribución o modificación de un dataset."
+https://revistaapuntes.uc.cl/index.php/RAT/issue/archive,Licencia mencionada (ver comentarios),CC BY-NC-SA 4.0,El texto menciona explícitamente que la revista se publica bajo la licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+https://analesdearquitectura.uc.cl/index.php/aa/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto es una política de privacidad que no menciona licencias de datos ni condiciones de uso, distribución o modificación de un dataset."
+https://www.arsmedica.cl/index.php/MED/issue/archive,Licencia mencionada (ver comentarios),CC BY-SA 4.0,"El texto permite compartir y adaptar el material con fines comerciales y no comerciales, siempre que se otorgue atribución y se distribuyan las contribuciones bajo la misma licencia."
+https://cuadernos.info/index.php/cdi/issue/archive,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://analesliteraturachilena.letras.uc.cl/index.php/alch/issue/archive,Política de privacidad (sin licencia explícita),CC BY-ND 4.0,El contenido publicado en *Anales de Literatura Chilena* está protegido bajo una licencia internacional [Creative Commons Atribución-SinDerivadas 4.0](https://creativecommons.org/licenses/by-nd/4.0/).
+https://www.larepublica.co/america-latina,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política de privacidad y tratamiento de datos personales, y no contiene información específica sobre la licencia de uso de un dataset o contenido."
+https://www.minciencia.gob.cl/noticias/,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto es una política de privacidad que se centra en el tratamiento y protección de datos personales, sin mencionar licencias de datos o condiciones de uso para datos no personales."
+https://www.minciencia.gob.cl/areas/fortalecimiento-sistema/programa-de-financiamiento-estructural-para-universidades-chilen/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.gob.pe/busquedas,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política de privacidad que se centra en el tratamiento y protección de datos personales, sin mencionar licencias de datos o condiciones de uso para contenido o datasets."
+https://pensamientoeducativo.uc.cl/index.php/pel/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://estudiosasiaticos.uc.cl/publicaciones/documentos-de-trabajo,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política de privacidad que describe cómo la Universidad Católica de Chile trata los datos personales de estudiantes, personal y externos. No contiene información sobre la licencia de uso de datos o contenido."
+https://onomazein.letras.uc.cl/index.php/onom/Tabla_cont,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistadisena.uc.cl/index.php/Disena/issue/archive,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://ojs.uc.cl/index.php/esla/index,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistahistoria.uc.cl/index.php/rhis/antnum,Política de privacidad (sin licencia explícita),CC BY-NC-ND 4.0,"El texto especifica que los contenidos están bajo la licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 (CC-BY-NC-ND), que permite compartir el trabajo con reconocimiento de la autoría original y publicación inicial, pero no permite uso comercial ni modificaciones."
+https://www.mineduc.cl/,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política de privacidad que se centra en la protección y manejo de datos personales, sin mencionar licencias de datos o condiciones de uso para datasets."
+https://cefoindigena.org/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+http://libreriasdelsur.gob.ve/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.ellibrototal.com/ltotal/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+http://cienciapublica.cl/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://lyd.org/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://repositorio.concytec.gob.pe/,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://www.explora.cl/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://mep.go.cr/transparencia-institucional/informacion-institucional/datos-abiertos,Política de privacidad (sin licencia explícita),CC BY-NC 4.0,"El texto especifica que el material producido por la institución se encuentra bajo una ""licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional"", lo cual corresponde directamente a la licencia CC BY-NC 4.0."
+https://observa.minciencia.gob.cl/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://mapuche.info,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto solo declara el copyright sin especificar permisos o restricciones para el uso, reutilización o distribución de los datos."
+https://bibliotecas.uc.cl/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.mcj.go.cr,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una política de privacidad y no contiene información específica sobre la licencia de uso de datos o contenido.
+https://bvsalud.org/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.mincultura.gov.co/,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política general de seguridad y privacidad de la información y no contiene información específica sobre la licencia de uso, distribución o modificación de datos."
+https://www.kaggle.com/datasets/wikimedia-foundation/wikipedia-structured-contents/data,Licencia mencionada (ver comentarios),CC BY-SA 4.0,"El texto permite compartir y adaptar el material con fines comerciales y no comerciales, siempre que se otorgue el crédito correspondiente y las obras derivadas se distribuyan bajo la misma licencia."
+https://revistas.ucr.ac.cr/index.php/aie,Licencia mencionada (ver comentarios),CC BY-NC-SA 4.0,"El texto permite compartir y adaptar el material, siempre y cuando se otorgue atribución, el uso sea no comercial, y las obras derivadas se distribuyan bajo la misma licencia."
+https://revistas.ucr.ac.cr/index.php/actualidades,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.ucr.ac.cr/index.php/agrocost,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.ucr.ac.cr/index.php/agromeso,Licencia mencionada (ver comentarios),CC BY-NC-ND 4.0,"El texto permite compartir y redistribuir el material en cualquier medio o formato, siempre y cuando se dé crédito apropiado, no se use con fines comerciales y no se realicen modificaciones."
+https://revistas.ucr.ac.cr/index.php/anuario,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una lista de enlaces y la declaración de privacidad, pero no contiene información específica sobre la licencia de uso de los datos o contenido."
+https://revistas.ucr.ac.cr/index.php/ciep,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información específica sobre la licencia de los datos o contenido.
+https://revistas.ucr.ac.cr/index.php/gerontologia,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://ojs.uc.cl/index.php/ijanr/issue/archive,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://horizonteenfermeria.uc.cl/index.php/RHE/issue/archive,Licencia mencionada (ver comentarios),CC BY 4.0,"El texto menciona específicamente ""Licencia Creative Commons Atribución / Reconocimiento 4.0 Internacional"", que corresponde a CC BY 4.0."
+https://ojs.uc.cl/index.php/psykhe/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto es una política de privacidad que no menciona licencias de datos ni condiciones de uso, distribución o modificación de un dataset."
+https://mng.mincultura.gov.co/,Términos y condiciones (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política de privacidad y tratamiento de datos personales, sin mencionar licencias de datos o condiciones de uso para datasets."
+https://revistas.ucr.ac.cr/index.php/alp/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado no contiene información específica sobre licencias de datos o términos y condiciones de uso de los datos. Solo indica que el sistema es de solo lectura y proporciona información general sobre la revista.
+https://revistas.ucr.ac.cr/index.php/revistarquis/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/juridicas/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/filyling/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/filosofia/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/geologica/issue/archive,Licencia mencionada (ver comentarios),CC BY-NC-SA 3.0,"El texto permite compartir y adaptar el material, siempre que se otorgue atribución, el uso no sea comercial, y las obras derivadas se distribuyan bajo la misma licencia."
+https://repositorio.una.ac.cr,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://seie.minedu.gob.bo/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.cultura.gob.cl/noticias/,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una estructura de navegación y menú de un sitio web del Ministerio de las Culturas, las Artes y el Patrimonio de Chile, y no contiene información específica sobre licencias de datos o términos de uso."
+https://repositorio.ifes.edu.br,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://rree.gob.sv/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://mppre.gob.ve/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://latindex.org/latindex/inicio,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es un aviso de privacidad y no contiene información sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/cienciaytecnologia/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/economicas/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/herencia/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/humanidades/issue/archive,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.ucr.ac.cr/index.php/iusdoctrina/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/rlm/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/matematica/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/medica/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/RDMCP/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/riea/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto es una declaración de privacidad que se centra en el uso de datos personales y no contiene información sobre la licencia de uso de un dataset o contenido.
+https://revistas.ucr.ac.cr/index.php/sociales/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/wimblu/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://www.museonacional.gov.co,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.ucr.ac.cr/index.php/antropologia/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es un menú de navegación de un sitio web y no contiene información específica sobre licencias de datos o términos de uso.
+https://revistas.ucr.ac.cr/index.php/dialogos/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/eciencias/issue/archive,Licencia mencionada (ver comentarios),(sin match) CC BY-NC-ND 3.0,"El texto permite compartir el material con atribución, pero prohíbe el uso comercial y la creación de obras derivadas, lo cual corresponde a los términos de la licencia CC BY-NC-ND 3.0."
+https://revistas.ucr.ac.cr/index.php/enfermeria/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/intercambio/issue/archive,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto proporcionado es una lista de comprobación y directrices para la preparación y envío de artículos a una revista académica, y no contiene información específica sobre la licencia de uso o distribución de los datos o contenido."
+https://www.recetasnestle.cl/,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es un Aviso de Privacidad que se centra en la recolección, uso y protección de datos personales, y no contiene información sobre licencias de datos o condiciones de uso de contenido."
+https://www.idbinvest.org/en/news-media/news-archive,Términos y condiciones (sin licencia explícita),CC BY-NC 4.0,"El texto permite descargar, copiar y reimprimir información del sitio web para fines no comerciales, siempre que se cite a IDB Invest como fuente, lo cual se alinea con los términos de la licencia CC BY-NC 4.0."
+https://humanidadesmedicas.sld.cu/,Licencia mencionada (ver comentarios),CC BY-NC 4.0,"El texto permite compartir y adaptar el material, siempre y cuando se otorgue atribución y no se use con fines comerciales, lo cual corresponde a los términos de la licencia CC BY-NC 4.0."
+https://www.ramajudicial.gov.co/web/guest/historico-de-noticias,Términos y condiciones (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una mención a políticas de privacidad y términos de uso, pero no contiene información específica sobre la licencia de los datos o el contenido."
+https://www.noticiasagricolas.com.br/,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una política de privacidad y consentimiento que no menciona licencias de datos ni establece términos de uso para datos o contenido.
+https://revistas.unan.edu.ni/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado no contiene información relevante sobre licencias de datos, términos y condiciones de uso, o políticas de privacidad/datos. Se trata principalmente de descripciones de programas académicos y perfiles de graduados."
+https://huggingface.co/datasets/santyzenith/LOPD_Ecuador,apache-2.0,Apache 2.0,"El texto menciona ""apache-2.0"", lo que indica que los datos están licenciados bajo los términos de la licencia Apache 2.0."
+https://rraae.cedia.edu.ec/vufind/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.ucr.ac.cr/index.php/clinica/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información específica sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/reflexiones/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información específica sobre la licencia de uso de datos.
+https://revistas.ucr.ac.cr/index.php/rehmlac/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información específica sobre la licencia de uso de datos.
+https://repositorio.sibdi.ucr.ac.cr,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://www.argentina.gob.ar/node/216747/noticias,Términos y condiciones (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política de privacidad y términos de uso general para varios servicios digitales del gobierno argentino, pero no especifica una licencia para el uso de datos."
+https://www.radiohc.cu/noticias/nacionales,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://opna.ucr.ac.cr/index.php/es/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://olimpicocol.co/web/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.pj.gov.py,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto proporcionado no contiene información sobre licencias de datos o términos de uso, solo muestra información de contacto y un aviso de derechos reservados."
+https://bibliotecadigital.indh.cl/browse/dateissued,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://www.uaysen.cl/actualidad/noticias,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.uaysen.cl/repositorio,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://polired.upm.es/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.gov.br/mre/es,Licencia mencionada (ver comentarios),CC BY-ND 3.0,"El texto permite compartir y redistribuir el material en cualquier medio o formato, incluso comercialmente, siempre que se dé el crédito correspondiente y no se realicen modificaciones. Esto corresponde a los términos de la licencia CC BY-ND 3.0."
+https://agenciadenoticias.ibge.gov.br/agencia-noticias.html,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://rebelion.org/categoria/territorios/america-latina-y-caribe/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://revistaccuba.sld.cu/,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto es una declaración de privacidad que se centra en el uso y protección de datos personales, sin mencionar licencias de datos o condiciones de uso para datasets."
+https://prcr.cobimet.org/,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://www.kerwa.ucr.ac.cr/home,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://publications.iadb.org/es,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.presidencia.gob.sv/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://repositorioinstitucional.ucm.cl/home,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://www.gob.pe/inei/,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una política de privacidad y no contiene información específica sobre la licencia de uso de datos o contenido.
+https://www.ip.gov.py/ip/educacion/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.ip.gov.py/ip/pais/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.ip.gov.py/ip/salud/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.ip.gov.py/ip/tecnologia/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.minedu.gob.pe/discover,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://fedesarrollo.org.co/,Política de datos (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política de tratamiento de datos personales y no contiene información específica sobre la licencia de uso, distribución o modificación de un dataset."
+https://revistas.uh.cu/rcei/,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto solo indica ""Todos los derechos reservados"" y no proporciona información específica sobre la licencia de uso, distribución o modificación de los datos o contenido."
+https://ojs.cbc.uba.ar/,Licencia mencionada (ver comentarios),CC BY-NC-SA 4.0,"El texto permite compartir y adaptar el material, siempre que se otorgue atribución, no se use con fines comerciales, y las obras derivadas se distribuyan bajo la misma licencia."
+https://revista.redgade.com/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistaccuba.sld.cu,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto es una declaración de privacidad que se centra en el uso y protección de datos personales, sin mencionar licencias de datos o condiciones de uso para datasets."
+https://github.com/sunnweiwei/spanish-reddit-dialogues-corpus?tab=readme-ov-file,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.vozdeamerica.com/,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una política de privacidad que describe cómo se recopila y utiliza la información de los visitantes del sitio web. No contiene información específica sobre la licencia de uso de datos o contenido.
+https://www.redsudamericana.org/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.ues.edu.sv/home,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://ojsull.webs.ull.es/,Licencia mencionada (ver comentarios),CC BY-NC-SA 4.0,"El texto permite compartir y adaptar el material, siempre y cuando se otorgue atribución, el uso sea no comercial, y las obras derivadas se distribuyan bajo la misma licencia."
+https://www.integra.cl/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://revistas.upr.edu/,Licencia mencionada (ver comentarios),CC BY-NC 4.0,"El texto permite compartir y adaptar el material, siempre y cuando se otorgue atribución y no se use con fines comerciales, lo cual corresponde a los términos de la licencia CC BY-NC 4.0."
+https://icec.mineduc.cl/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://bibliotecadigital.mineduc.cl/,Términos y condiciones (sin licencia explícita),,Sin texto de licencia/términos/privacidad detectado.
+https://ciudadaniadigital.mineduc.cl/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://curriculumnacional.cl/,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto es una política de privacidad que se centra en el tratamiento y protección de datos personales, sin mencionar licencias de datos o condiciones de uso para datos no personales."
+https://educacionpublica.gob.cl/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://redinnovacioneducativa.cl/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://supereduc.cl/,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto es una política de privacidad que se centra en el tratamiento de datos personales y no menciona licencias de datos o condiciones de uso para datos en general.
+https://revistas.upr.edu/index.php/forumempresarial,Licencia mencionada (ver comentarios),CC BY-NC 4.0,"El texto permite compartir y adaptar el material, siempre y cuando se otorgue atribución y no se use con fines comerciales, lo cual corresponde a los términos de la licencia CC BY-NC 4.0."
+https://revistas.upr.edu/index.php/griot,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es un menú de navegación de un sitio web y no contiene información específica sobre licencias de datos o términos de uso.
+https://repositorio.unan.edu.ni/view,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto solo indica el copyright y reserva de todos los derechos, sin especificar permisos o restricciones para el uso, reutilización o distribución de los datos."
+https://revista.seminarioconciliardemedellin.org/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://journals.uco.es/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.uma.es/,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto solo menciona el copyright de la Universidad de Málaga y no proporciona información sobre la licencia de uso, distribución o modificación de los datos."
+https://www.ecured.cu/,Política de privacidad (sin licencia explícita),,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.ucr.ac.cr/index.php/cifem/issue/archive,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://peib.mineduc.cl/noticias/,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una página de noticias y actividades del Ministerio de Educación de Chile, sin mencionar ninguna licencia específica para el uso de datos o contenido."
+https://perfilesla.flacso.edu.mx/index.php/perfilesla/issue/archive,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.pucp.edu.pe/inicio/,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto solo indica el año y la entidad que reserva todos los derechos, sin especificar una licencia para el uso de datos o contenido."
+https://www.revistas.up.ac.pa/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+http://revistas.uraccan.edu.ni/index.php/Interculturalidad,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.chiletransparente.cl,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://rree.gob.sv,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.servindi.org/,Licencia mencionada (ver comentarios),CC BY-NC-SA 4.0,"La licencia mencionada requiere reconocimiento al autor (BY), no permite uso comercial (NC), y exige que las obras derivadas se compartan bajo la misma licencia (SA)."
+https://www.rtvcnoticias.com/,Términos y condiciones (sin licencia explícita),Ninguna coincide,El texto proporcionado es insuficiente para determinar la licencia aplicable.
+Alianza universidad espiritu santo ecuador,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.sinabi.go.cr/biblioteca%20digital/index.aspx,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una política de privacidad que se centra en el manejo de datos personales y no contiene información sobre la licencia de uso de datos o contenido.
+https://lacalera.una.edu.ni/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://portalderevistas.uam.edu.ni/index.php/revistaestudiossociales/index,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto es una política de privacidad que no menciona licencias de datos ni condiciones de uso, distribución o modificación de un dataset."
+https://www.spanish-translator-services.com/espanol/traduccion-al-espanol/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.bicu.edu.ni/index.php/wani/,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto es una política de privacidad que no menciona licencias de datos ni condiciones de uso, distribución o modificación de un dataset."
+https://tcpbolivia.bo/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://bibliotecacorteidh.winkel.la,Política de privacidad (sin licencia explícita),(sin match) CC BY-NC-ND 3.0,El texto especifica que el contenido de la Biblioteca Digital de la Corte IDH se encuentra bajo la Licencia Creative Commons Atribución-NoComercial-SinDerivadas 3.0 Unported.
+http://www.tsj.gob.ve,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.tycsports.com/,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una imagen de un pixel de seguimiento y no contiene información sobre licencias de datos o términos de uso.
+https://www.udla.cl/,Política de privacidad (sin licencia explícita),CC BY-NC 4.0,"El texto permite el uso y copia de los contenidos ""solamente para uso interno, no comercial, informativo ni para su distribución"", lo cual se alinea con la licencia CC BY-NC 4.0 que permite el uso y adaptación del contenido siempre que sea no comercial y se otorgue atribución."
+https://www.unl.edu.ec/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorio.usfq.edu.ec/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://repositorioinstitucional.buap.mx/home,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://www.pj.gob.pe,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una política de privacidad y no contiene información específica sobre la licencia de uso de datos o contenido.
+alianza ugm,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://directory.doabooks.org/browse?type=language&value=English,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.gob.pe/busquedas?term=repositorio%20institucional,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política de privacidad que se centra en el tratamiento y protección de datos personales, sin mencionar licencias de datos o condiciones de uso para contenido o datasets."
+https://publicaciones.uazuay.edu.ec/index.php/ceuazuay/index,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.gob.pe/institucion/servir/noticias,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una política de privacidad y no contiene información específica sobre la licencia de uso de datos o contenido.
+https://repositorio.ucb.edu.bo/xmlui/,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://revistacientifica.uamericana.edu.py/index.php/academo/index,Licencia mencionada (ver comentarios),CC BY 4.0,"El texto permite compartir y adaptar el material en cualquier medio o formato, incluso con fines comerciales, siempre que se otorgue el crédito correspondiente y no se apliquen restricciones adicionales que limiten lo que la licencia permite."
+http://www.agr.una.py/revista/index.php/ria,Licencia mencionada (ver comentarios),CC BY 4.0,"El texto permite compartir y adaptar el material para cualquier propósito, incluyendo uso comercial, siempre que se otorgue el crédito correspondiente y no se apliquen restricciones adicionales."
+https://revistascientificas.una.py/index.php/REPED/,Licencia mencionada (ver comentarios),CC BY 4.0,"El texto permite compartir y adaptar el material en cualquier medio o formato, incluso comercialmente, siempre que se dé crédito adecuado, se proporcione un enlace a la licencia y se indique si se han realizado cambios. No se permiten restricciones adicionales que limiten los usos permitidos por la licencia."
+http://revistascientificas.una.py/index.php/RIIC/index,Licencia mencionada (ver comentarios),CC BY 4.0,"El texto permite compartir y adaptar el material en cualquier medio o formato, incluso comercialmente, siempre que se dé crédito adecuado, se proporcione un enlace a la licencia y se indique si se han realizado cambios. No se permiten restricciones adicionales que limiten los usos permitidos por la licencia."
+http://revistacientifica.uaa.edu.py/index.php/riics/index,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una declaración de privacidad y no contiene información sobre la licencia de uso de datos.
+https://ucb.edu.bo/biblioteca/revistas-ucb/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://iice.ucr.ac.cr,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.dspace.uce.edu.ec/communities/4b4af461-dfcd-44c5-be38-bf30b9d8afcb,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://tzibalnaah.unah.edu.hn/handle/123456789/6/discover,Licencia mencionada (ver comentarios),Ninguna coincide,El texto proporcionado es un resumen de una tesis y no contiene información específica sobre licencias de datos o términos y condiciones de uso.
+https://www.ucr.ac.cr/noticias/,Aviso legal (sin licencia explícita),Ninguna coincide,"El texto proporcionado es un aviso legal y términos de uso del sitio web de la Universidad de Costa Rica, pero no especifica una licencia de datos o contenido. Se menciona la propiedad intelectual e industrial, pero no se indica una licencia específica para el uso de los datos o contenidos del sitio."
+https://ojs.latu.org.uy/inicio/,Licencia mencionada (ver comentarios),CC BY-NC 4.0,"El texto menciona explícitamente que la obra está bajo la ""licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional""."
+https://sociedadcientifica.org.py/ojs/index.php/rscpy/issue/archive,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+http://repositorio.uisrael.edu.ec/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://ri.ujat.mx/,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.usat.edu.pe/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.revistas.utp.ac.pa/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistatelematica.cujae.edu.cu/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://portalrevistas.aulavirtualusmp.pe/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.unap.edu.pe/portal/,Licencia mencionada (ver comentarios),Ninguna coincide,El texto proporcionado no especifica una licencia para el uso de datos y solo menciona información general sobre licencias abiertas para publicaciones académicas.
+https://www.odepa.gob.cl/,Política de privacidad (sin licencia explícita),Ninguna coincide,El texto proporcionado es una política de privacidad de datos y no contiene información específica sobre la licencia de uso de un dataset o contenido.
+https://amazoniaperuana.caaap.org.pe/index.php/amazoniaperuana,Licencia mencionada (ver comentarios),CC BY 4.0,"El texto permite compartir y adaptar el material en cualquier medio o formato, incluso comercialmente, siempre que se dé crédito adecuado, se proporcione un enlace a la licencia y se indique si se han realizado cambios. No se permiten restricciones adicionales que limiten los usos permitidos por la licencia."
+https://repositorio.ues.edu.sv/,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://rpmesp.ins.gob.pe/index.php/rpmesp,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://semestreeconomico.unap.edu.pe/index.php/revista,Licencia mencionada (ver comentarios),CC BY 4.0,"El texto permite compartir y adaptar el material para cualquier propósito, incluyendo uso comercial, siempre que se otorgue el crédito correspondiente y no se apliquen restricciones adicionales."
+https://revistas.unitru.edu.pe/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.uss.edu.pe/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.unheval.edu.pe/index.php/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revista.infor.cl/index.php/infor,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://upinforma.com/nuevo/index.php,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto solo indica ""Todos los derechos reservados"" y no proporciona información específica sobre la licencia de uso, reutilización o distribución de los datos."
+https://revistas.upch.edu.pe/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.agroseguros.gob.cl/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://minagri.gob.cl/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+http://www.sibiup.up.ac.pa/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://up-rid.up.ac.pa/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://upap.edu.py/biblioteca-virtual/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://repositorio.umecit.edu.pa/home,Licencia mencionada (ver comentarios),,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.juridicas.unam.mx/,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es un aviso de privacidad que se centra en la recopilación y tratamiento de datos personales, sin mencionar licencias de datos o condiciones de uso para datasets o contenido."
+https://www.teses.usp.br/?lang=pt-br,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.up.ac.pa/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://especial.mineduc.cl/destacados,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política de privacidad que se centra en la protección y manejo de datos personales, sin mencionar licencias de datos o condiciones de uso para datasets."
+https://rural.mineduc.cl/destacados,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política de privacidad que se centra en la protección y manejo de datos personales, sin mencionar licencias de datos o condiciones de uso para datasets."
+https://est.cmq.edu.mx/index.php/est/issue/archive,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://liderazgoeducativo.mineduc.cl/destacados,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política de privacidad que se centra en la protección y manejo de datos personales, sin mencionar licencias de datos o condiciones de uso para datos o contenido en general."
+https://www.espacioimasd.unach.mx/index.php/Inicio/issue/archive,Licencia mencionada (ver comentarios),CC BY-NC-SA 4.0,"El texto permite compartir y adaptar el material, siempre que se otorgue atribución, no se use con fines comerciales, y las obras derivadas se distribuyan bajo la misma licencia."
+https://www.ull.es/revistas/index.php,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.revistasipgh.org/index.php,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.uca.edu.sv/index.php,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.ues.edu.sv/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.up.edu.mx/,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto solo indica ""Derechos reservados"" sin especificar permisos o restricciones de uso, atribución, o licencia aplicable."
+https://revistas.utec.edu.sv/index.php,Copyright / Todos los derechos reservados,Ninguna coincide,"El texto solo muestra el copyright sin especificar términos de uso, licencias o permisos para el uso de datos."
+https://revistacientifica.uaa.edu.py/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://cdihh.ihah.hn/yaxkin-digital/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL) para el software WordPress, pero no especifica una licencia para datos o contenido, por lo que no coincide con ninguna de las licencias de datos listadas."
+https://www.revistas.una.ac.cr/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistascientificas.una.py/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas-colaboracion.juridicas.unam.mx/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://revistas.uni.edu.py/,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://redi.upr.edu/discover,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+https://www.achipia.gob.cl/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.ciren.cl/,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política de privacidad que se centra en el tratamiento de datos personales y no especifica una licencia para el uso, distribución o modificación de datos o contenido."
+https://www.cnr.gob.cl/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL) para el software WordPress, pero no especifica una licencia para datos o contenido, por lo que no coincide con ninguna de las licencias de datos listadas."
+https://www.conaf.cl/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.fia.cl/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL) para el software WordPress, pero no especifica una licencia para datos o contenido, por lo que no coincide con ninguna de las licencias de datos listadas."
+https://fucoa.cl/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.indap.gob.cl/,Términos y condiciones (sin licencia explícita),CC BY-NC 4.0,"El texto permite copiar y citar el contenido siempre que se incorpore la fuente y el enlace, pero prohíbe copiar, duplicar, emitir, adaptar o cambiar el contenido para fines comerciales."
+https://www.inia.cl/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado se refiere a la licencia GNU General Public License (GPL), que no está incluida en la lista de licencias proporcionada."
+https://www.infor.cl/,Licencia mencionada (ver comentarios),Ninguna coincide,"El texto proporcionado corresponde a la licencia GNU General Public License (GPL) versión 2, que no está incluida en la lista de licencias proporcionada."
+https://www.sag.gob.cl/,Política de privacidad (sin licencia explícita),Ninguna coincide,"El texto proporcionado es una política de privacidad y tratamiento de datos personales, y no especifica una licencia para el uso, distribución o modificación de datos o contenido."
+Alianza Wikimedia,No encontrada,,Sin texto de licencia/términos/privacidad detectado.
+Alianza camara de diputados (jsons),No encontrada,,Sin texto de licencia/términos/privacidad detectado.

@@ -1,0 +1,17 @@
+{
+  "estado": "ok",
+  "metodo": "ocr",
+  "confianza_ocr": 0.924502342099732,
+  "confianza_nativo": null,
+  "paginas": [
+    "ocr",
+    "ocr",
+    "ocr",
+    "ocr",
+    "ocr",
+    "ocr",
+    "ocr",
+    "ocr"
+  ],
+  "requiere_revision": false
+}

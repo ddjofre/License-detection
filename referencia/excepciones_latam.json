@@ -1,0 +1,292 @@
+{
+  "_meta": {
+    "descripcion": "Excepciones legales y licencias por defecto para reutilizar datos de sitios gubernamentales de América Latina. Orientación general, no asesoría legal.",
+    "fecha": "2026-10-08",
+    "aviso": "Las normas cambian; verificar la versión vigente en la gaceta o diario oficial de cada país. Los campos con estado 'por_confirmar' o valor null no se verificaron en una fuente oficial.",
+    "regla_prioridad": "La licencia del portal de datos abiertos prevalece sobre el aviso legal genérico del sitio institucional para los conjuntos publicados allí.",
+    "orden_revision": [
+      "Buscar el conjunto en el portal nacional de datos abiertos",
+      "Leer la ficha del conjunto y su licencia",
+      "Si no existe, revisar si es transparencia activa o texto oficial",
+      "Si nada aplica, presentar una solicitud de acceso"
+    ],
+    "clasificaciones": {
+      "licencia_explicita": "El sitio o el portal declara una licencia",
+      "excepcion_legal": "No hay licencia, pero aplica una excepción de 'tipos_excepcion'",
+      "requiere_solicitud": "No hay licencia ni excepción; pedir por ley de acceso a la información"
+    },
+    "estados_textos_oficiales": {
+      "excluidos": "La ley de derecho de autor excluye expresamente leyes, decretos, sentencias, etc.",
+      "reproduccion_permitida": "La ley permite reproducirlos libremente (conforme a la edición oficial)",
+      "sin_exclusion": "La ley no los excluye expresamente",
+      "doctrina": "Excluidos por jurisprudencia, no por texto legal",
+      "por_confirmar": "No verificado"
+    },
+    "textos_oficiales_verificacion": "2026-10-08: los 14 países que estaban 'por_confirmar' se verificaron contra el texto de la ley (WIPO Lex, IMPO, Legispan, PJ Paraguay, etc.); la URL usada queda en textos_oficiales.fuente. Son copias de la ley, no siempre la gaceta oficial ni la última versión consolidada.",
+    "licencia_dicc": "Clave de dicc_lic.json que mejor corresponde a la licencia por defecto; null si varía o no se sabe."
+  },
+
+  "tipos_excepcion": {
+    "textos_oficiales": {
+      "nombre": "Textos oficiales sin derecho de autor",
+      "cubre": "Leyes, decretos, reglamentos, resoluciones y sentencias",
+      "donde": "Ley de derecho de autor de cada país",
+      "nota": "Un aviso de 'todos los derechos reservados' en el sitio no crea una protección que la ley no otorga."
+    },
+    "transparencia_activa": {
+      "nombre": "Transparencia activa",
+      "cubre": "Información que el Estado debe publicar: estructura, presupuesto, sueldos, contratos, compras",
+      "donde": "Ley de acceso a la información pública"
+    },
+    "datos_abiertos": {
+      "nombre": "Datos abiertos",
+      "cubre": "Conjuntos publicados con licencia de reutilización",
+      "donde": "Decreto o política de datos abiertos y su portal"
+    },
+    "hechos_y_cifras": {
+      "nombre": "Hechos y cifras",
+      "cubre": "Los datos en sí; puede protegerse solo la selección o estructura",
+      "donde": "Principio general del derecho de autor"
+    },
+    "solicitud_acceso": {
+      "nombre": "Solicitud de acceso",
+      "cubre": "Información no publicada que se pide formalmente",
+      "donde": "Ley de acceso a la información pública"
+    }
+  },
+
+  "limites": {
+    "datos_personales": "Siguen protegidos por la ley de protección de datos de cada país, aunque aparezcan en un sitio público",
+    "informacion_reservada": "Secretos de Estado, seguridad nacional, información clasificada",
+    "obras_de_terceros": "Fotografías, estudios, mapas o software de autores privados",
+    "emblemas_y_marcas": "Escudos, logos y marcas oficiales",
+    "condiciones_tecnicas": "robots.txt, límites de API, bloqueos por volumen",
+    "bases_de_datos": "Algunas leyes protegen la selección o estructura original de una base de datos"
+  },
+
+  "paises": {
+    "AR": {
+      "nombre": "Argentina",
+      "region": "Cono Sur y Brasil",
+      "dominios": ["gob.ar", "gov.ar"],
+      "textos_oficiales": {"estado": "sin_exclusion", "norma": "Ley 11.723", "detalle": "Sin exclusión expresa de textos oficiales"},
+      "acceso_informacion": {"norma": "Ley 27.275", "anio": 2016, "detalle": null},
+      "datos_abiertos": {"norma": "Decreto 117/2016", "detalle": null},
+      "portal": "datos.gob.ar",
+      "licencia_defecto": {"texto": "CC BY 4.0 o licencias Open Data Commons, según el conjunto", "licencia_dicc": null, "varia_por_conjunto": true},
+      "fuentes": ["https://www.argentina.gob.ar/node/178469"]
+    },
+    "BR": {
+      "nombre": "Brasil",
+      "region": "Cono Sur y Brasil",
+      "dominios": ["gov.br", "jus.br", "leg.br", "mp.br"],
+      "textos_oficiales": {"estado": "excluidos", "norma": "Lei 9.610/1998, art. 8", "detalle": "Excluye leyes, decretos, reglamentos y decisiones judiciales"},
+      "acceso_informacion": {"norma": "Lei 12.527/2011 (LAI)", "anio": 2011, "detalle": null},
+      "datos_abiertos": {"norma": "Decreto 8.777/2016", "detalle": null},
+      "portal": "dados.gov.br",
+      "licencia_defecto": {"texto": "Varía por conjunto; revisar la ficha", "licencia_dicc": null, "varia_por_conjunto": true},
+      "fuentes": []
+    },
+    "CL": {
+      "nombre": "Chile",
+      "region": "Cono Sur y Brasil",
+      "dominios": ["gob.cl", "cl"],
+      "textos_oficiales": {"estado": "sin_exclusion", "norma": "Ley 17.336", "detalle": "Sin exclusión expresa de textos oficiales. Art. 88: el Estado y sus organismos son titulares del derecho de autor sobre las obras de sus funcionarios, salvo que las liberen por resolución.", "fuente": "https://www.wipo.int/wipolex/es/legislation/details/18880"},
+      "acceso_informacion": {"norma": "Ley 20.285", "anio": 2008, "detalle": null},
+      "datos_abiertos": {"norma": "Términos y condiciones de datos.gob.cl", "detalle": null},
+      "portal": "datos.gob.cl",
+      "licencia_defecto": {"texto": "CC0 (predeterminada)", "licencia_dicc": "CC0 1.0", "varia_por_conjunto": false},
+      "fuentes": ["https://datos.gob.cl/dataset/02b8171a-dd45-4d63-95e0-72b7b749ef26/resource/334c1faa-3cfc-4b8a-ab84-4517aed248d2/download/rex.-tyc-nuevo-portal-de-datos-abiertos-v2_vf-1_cc_corregido-2_firmado.pdf"]
+    },
+    "PY": {
+      "nombre": "Paraguay",
+      "region": "Cono Sur y Brasil",
+      "dominios": ["gov.py"],
+      "textos_oficiales": {"estado": "excluidos", "norma": "Ley 1328/1998, art. 8, inc. 2", "detalle": "No son objeto de protección los textos oficiales de carácter legislativo, administrativo o judicial, ni sus traducciones; obliga a respetar los textos y citar la fuente", "fuente": "https://www.pj.gov.py/images/contenido/ddpi/leyes/ley-1328-del-98-derecho-de-autor-y-derechos-conexos.pdf"},
+      "acceso_informacion": {"norma": "Ley 5282/2014", "anio": 2014, "detalle": null},
+      "datos_abiertos": {"norma": "Decreto 4064/2015", "detalle": "Define datos abiertos y licencia de uso"},
+      "portal": "datos.gov.py",
+      "licencia_defecto": {"texto": "La que emita cada fuente; requisitos limitados a atribución y redistribución", "licencia_dicc": "Open Data", "varia_por_conjunto": true},
+      "fuentes": ["https://www.cultura.gov.py/wp-content/uploads/2017/12/DECRETO-4064-2015.pdf"]
+    },
+    "UY": {
+      "nombre": "Uruguay",
+      "region": "Cono Sur y Brasil",
+      "dominios": ["gub.uy"],
+      "textos_oficiales": {"estado": "reproduccion_permitida", "norma": "Ley 9.739, art. 45, num. 5", "detalle": "Permite la reproducción fiel de leyes, códigos, actas oficiales y documentos públicos; no menciona expresamente las sentencias", "fuente": "https://www.impo.com.uy/bases/leyes/9739-1937"},
+      "acceso_informacion": {"norma": "Ley 18.381", "anio": 2008, "detalle": null},
+      "datos_abiertos": {"norma": "Ley 19.355", "detalle": null},
+      "portal": "catalogodatos.gub.uy",
+      "licencia_defecto": {"texto": "Licencia de Datos Abiertos de Uruguay; exige citar al proveedor y la licencia", "licencia_dicc": "Open Data", "varia_por_conjunto": false},
+      "fuentes": ["https://catalogodatos.gub.uy/terminos-catalogodatos.pdf"]
+    },
+
+    "BO": {
+      "nombre": "Bolivia",
+      "region": "Región andina",
+      "dominios": ["gob.bo"],
+      "textos_oficiales": {"estado": "sin_exclusion", "norma": "Ley 1322/1992", "detalle": "Sin exclusión expresa de textos oficiales; el art. 4 solo excluye las ideas", "fuente": "https://www.lexivox.org/norms/BO-L-1322.html"},
+      "acceso_informacion": {"norma": "Decreto Supremo 28168/2005", "anio": 2005, "detalle": "Sin ley general; el decreto solo cubre al Poder Ejecutivo"},
+      "datos_abiertos": {"norma": null, "detalle": "Sin norma general verificada"},
+      "portal": "datos.gob.bo",
+      "licencia_defecto": {"texto": "Por confirmar (también si el portal sigue activo)", "licencia_dicc": null, "varia_por_conjunto": null},
+      "fuentes": []
+    },
+    "CO": {
+      "nombre": "Colombia",
+      "region": "Región andina",
+      "dominios": ["gov.co"],
+      "textos_oficiales": {"estado": "reproduccion_permitida", "norma": "Ley 23/1982, art. 41", "detalle": "Permite reproducir Constitución, leyes, decretos, actos administrativos y sentencias, conforme a la edición oficial"},
+      "acceso_informacion": {"norma": "Ley 1712/2014", "anio": 2014, "detalle": null},
+      "datos_abiertos": {"norma": "Resolución MinTIC 1519/2020, anexo 4", "detalle": null},
+      "portal": "datos.gov.co",
+      "licencia_defecto": {"texto": "Cada entidad aprueba la suya; frecuente CC BY 4.0 o CC BY-SA 4.0", "licencia_dicc": null, "varia_por_conjunto": true},
+      "fuentes": ["https://ticsinbarreras.mintic.gov.co/791/articles-193440_documento_0001.pdf", "https://www.minhacienda.gov.co/transparencia/datos-abiertos/seccion-datos-abiertos"]
+    },
+    "EC": {
+      "nombre": "Ecuador",
+      "region": "Región andina",
+      "dominios": ["gob.ec"],
+      "textos_oficiales": {"estado": "excluidos", "norma": "Código Ingenios (2016), art. 107", "detalle": "Materia no protegible: disposiciones legales y reglamentarias, proyectos de ley, resoluciones judiciales, actos y resoluciones de organismos públicos, demás textos oficiales y sus traducciones oficiales", "fuente": "https://www.wipo.int/wipolex/en/text/439750"},
+      "acceso_informacion": {"norma": "LOTAIP 2.0", "anio": 2023, "detalle": "Incluye principios de reutilización"},
+      "datos_abiertos": {"norma": "Política de datos abiertos (Planifica Ecuador, 2022)", "detalle": null},
+      "portal": "datosabiertos.gob.ec",
+      "licencia_defecto": {"texto": "Por confirmar", "licencia_dicc": null, "varia_por_conjunto": null},
+      "fuentes": []
+    },
+    "PE": {
+      "nombre": "Perú",
+      "region": "Región andina",
+      "dominios": ["gob.pe"],
+      "textos_oficiales": {"estado": "excluidos", "norma": "Decreto Legislativo 822, art. 9", "detalle": "Excluye disposiciones legales, reglamentarias y resoluciones judiciales"},
+      "acceso_informacion": {"norma": "Ley 27806 (TUO: D.S. 021-2019-JUS)", "anio": 2002, "detalle": null},
+      "datos_abiertos": {"norma": "Decreto Legislativo 1412 (Gobierno Digital) y su reglamento", "detalle": null},
+      "portal": "datosabiertos.gob.pe",
+      "licencia_defecto": {"texto": "Varía por conjunto; revisar la ficha", "licencia_dicc": null, "varia_por_conjunto": true},
+      "fuentes": []
+    },
+    "VE": {
+      "nombre": "Venezuela",
+      "region": "Región andina",
+      "dominios": ["gob.ve"],
+      "textos_oficiales": {"estado": "excluidos", "norma": "Ley sobre el Derecho de Autor (1993), art. 4", "detalle": "No están protegidos leyes, decretos, reglamentos oficiales, tratados públicos, decisiones judiciales y demás actos oficiales. Excepción (art. 138): publicar una colección de leyes, tratados o sentencias requiere permiso del ministerio o tribunal correspondiente", "fuente": "https://www.wipo.int/wipolex/en/legislation/details/4010"},
+      "acceso_informacion": {"norma": null, "anio": null, "detalle": "Sin ley general de acceso"},
+      "datos_abiertos": {"norma": "Ley de Infogobierno (2013)", "detalle": "Sin portal nacional verificado"},
+      "portal": null,
+      "licencia_defecto": {"texto": "No aplica", "licencia_dicc": null, "varia_por_conjunto": null},
+      "fuentes": []
+    },
+
+    "MX": {
+      "nombre": "México",
+      "region": "México y Centroamérica",
+      "dominios": ["gob.mx"],
+      "textos_oficiales": {"estado": "excluidos", "norma": "Ley Federal del Derecho de Autor, art. 14", "detalle": "Excluye textos legislativos, reglamentarios, administrativos y judiciales"},
+      "acceso_informacion": {"norma": "Ley General de Transparencia (DOF 20/03/2025)", "anio": 2025, "detalle": "El INAI fue sustituido por Transparencia para el Pueblo"},
+      "datos_abiertos": {"norma": "Ley General de Transparencia (2025)", "detalle": "La misma ley define 'datos abiertos'"},
+      "portal": "datos.gob.mx",
+      "licencia_defecto": {"texto": "Libre uso con cita de la fuente (definición legal)", "licencia_dicc": "Open Data", "varia_por_conjunto": false},
+      "fuentes": ["https://www.diputados.gob.mx/LeyesBiblio/ref/lgtaip.htm"]
+    },
+    "GT": {
+      "nombre": "Guatemala",
+      "region": "México y Centroamérica",
+      "dominios": ["gob.gt"],
+      "textos_oficiales": {"estado": "reproduccion_permitida", "norma": "Decreto 33-98, art. 68", "detalle": "Es libre publicar leyes, decretos, reglamentos, acuerdos, resoluciones, decisiones judiciales y administrativas y sus traducciones oficiales, siempre que se apegue a la publicación oficial", "fuente": "https://www.wipo.int/wipolex/es/legislation/details/16159"},
+      "acceso_informacion": {"norma": "Decreto 57-2008", "anio": 2008, "detalle": null},
+      "datos_abiertos": {"norma": null, "detalle": "Sin norma general verificada"},
+      "portal": null,
+      "licencia_defecto": {"texto": "Por confirmar", "licencia_dicc": null, "varia_por_conjunto": null},
+      "fuentes": []
+    },
+    "SV": {
+      "nombre": "El Salvador",
+      "region": "México y Centroamérica",
+      "dominios": ["gob.sv"],
+      "textos_oficiales": {"estado": "reproduccion_permitida", "norma": "Ley de Propiedad Intelectual (Decreto 66, 2024), art. 50", "detalle": "Particulares pueden publicar leyes, reglamentos, acuerdos y demás disposiciones del Gobierno, sueltas o en colección, después de la publicación oficial y con apego al texto oficial, sin autorización", "fuente": "https://www.wipo.int/wipolex/es/legislation/details/22675"},
+      "acceso_informacion": {"norma": "Decreto 534", "anio": 2011, "detalle": null},
+      "datos_abiertos": {"norma": null, "detalle": "Sin norma general verificada"},
+      "portal": null,
+      "licencia_defecto": {"texto": "Por confirmar", "licencia_dicc": null, "varia_por_conjunto": null},
+      "fuentes": []
+    },
+    "HN": {
+      "nombre": "Honduras",
+      "region": "México y Centroamérica",
+      "dominios": ["gob.hn"],
+      "textos_oficiales": {"estado": "reproduccion_permitida", "norma": "Decreto 4-99-E, art. 54", "detalle": "Particulares pueden publicar leyes, reglamentos, acuerdos y demás disposiciones del Estado después de su publicación en La Gaceta, respetando el texto oficial completo", "fuente": "https://faolex.fao.org/docs/pdf/hon129266.pdf"},
+      "acceso_informacion": {"norma": "Decreto 170-2006", "anio": 2006, "detalle": null},
+      "datos_abiertos": {"norma": null, "detalle": "Sin norma general verificada"},
+      "portal": null,
+      "licencia_defecto": {"texto": "Por confirmar", "licencia_dicc": null, "varia_por_conjunto": null},
+      "fuentes": []
+    },
+    "NI": {
+      "nombre": "Nicaragua",
+      "region": "México y Centroamérica",
+      "dominios": ["gob.ni"],
+      "textos_oficiales": {"estado": "excluidos", "norma": "Ley 312, art. 16", "detalle": "No son objeto de protección leyes, disposiciones gubernativas, proyectos de ley, actas, acuerdos y dictámenes de organismos públicos y sus traducciones oficiales; las sentencias pueden reproducirse tras su publicación oficial, ajustándose al texto auténtico", "fuente": "https://sajurin.enriquebolanos.org/docs/99LEY%20312.pdf"},
+      "acceso_informacion": {"norma": "Ley 621", "anio": 2007, "detalle": null},
+      "datos_abiertos": {"norma": null, "detalle": "Sin norma general verificada"},
+      "portal": null,
+      "licencia_defecto": {"texto": "No aplica", "licencia_dicc": null, "varia_por_conjunto": null},
+      "fuentes": []
+    },
+    "CR": {
+      "nombre": "Costa Rica",
+      "region": "México y Centroamérica",
+      "dominios": ["go.cr"],
+      "textos_oficiales": {"estado": "reproduccion_permitida", "norma": "Ley 6683, art. 75", "detalle": "Se permite a todos reproducir libremente constituciones, leyes, decretos, acuerdos municipales, reglamentos y demás actos públicos, conforme a la edición oficial", "fuente": "https://costarica.eregulations.org/media/ley_6683%20Derechos%20de%20autor%20y%20derechos%20conexos.pdf"},
+      "acceso_informacion": {"norma": "Constitución, art. 30; Decreto 40200-MP-MEIC-MC", "anio": 2017, "detalle": "Sin ley general"},
+      "datos_abiertos": {"norma": "Decreto 40199-MP (2017)", "detalle": "El dato público abierto debe estar libre de derechos de autor"},
+      "portal": null,
+      "licencia_defecto": {"texto": "Libre uso y reúso (definición del decreto)", "licencia_dicc": "Open Data", "varia_por_conjunto": false},
+      "fuentes": ["https://faolex.fao.org/docs/pdf/cos202677.pdf"]
+    },
+    "PA": {
+      "nombre": "Panamá",
+      "region": "México y Centroamérica",
+      "dominios": ["gob.pa"],
+      "textos_oficiales": {"estado": "excluidos", "norma": "Ley 64 de 2012, art. 13, num. 2", "detalle": "No gozan de protección los textos oficiales de carácter administrativo, legislativo o judicial ni sus traducciones oficiales; obliga a respetar los textos y citar la fuente", "fuente": "https://s3-legispan.asamblea.gob.pa/legispan/NORMAS/2010/2012/LEY/Administrador%20Legispan_27139-B_2012_10_10_ASAMBLEA%20NACIONAL_64.pdf"},
+      "acceso_informacion": {"norma": "Ley 6 de 2002; ANTAI (Ley 33 de 2013)", "anio": 2002, "detalle": null},
+      "datos_abiertos": {"norma": "Decreto Ejecutivo 511 de 2017 y Resolución ANTAI DS-3513-2018", "detalle": null},
+      "portal": "datosabiertos.gob.pa",
+      "licencia_defecto": {"texto": "Elige cada entidad; la guía oficial recomienda CC BY 4.0", "licencia_dicc": "CC BY 4.0", "varia_por_conjunto": true},
+      "fuentes": ["https://www.datosabiertos.gob.pa/uploads/document/2023-03-17-193604.9456624-about-criterios-evaluacion.pdf"]
+    },
+
+    "CU": {
+      "nombre": "Cuba",
+      "region": "Caribe hispano",
+      "dominios": ["gob.cu", "cu"],
+      "textos_oficiales": {"estado": "excluidos", "norma": "Ley 154/2022, art. 9, inc. d", "detalle": "No son objeto de protección el texto oficial de orden legislativo, administrativo o judicial, ni su traducción oficial (también excluye datos y hechos, inc. b)", "fuente": "https://www.wipo.int/wipolex/es/legislation/details/21621"},
+      "acceso_informacion": {"norma": null, "anio": null, "detalle": "Sin ley general de acceso verificada"},
+      "datos_abiertos": {"norma": null, "detalle": "Sin norma general verificada"},
+      "portal": null,
+      "licencia_defecto": {"texto": "No aplica", "licencia_dicc": null, "varia_por_conjunto": null},
+      "fuentes": []
+    },
+    "PR": {
+      "nombre": "Puerto Rico",
+      "region": "Caribe hispano",
+      "dominios": ["pr.gov"],
+      "textos_oficiales": {"estado": "doctrina", "norma": "Georgia v. Public.Resource.Org (2020)", "detalle": "Doctrina de edictos gubernamentales"},
+      "acceso_informacion": {"norma": "Ley 141-2019", "anio": 2019, "detalle": null},
+      "datos_abiertos": {"norma": "Ley 122-2019 (Datos Abiertos)", "detalle": null},
+      "portal": null,
+      "licencia_defecto": {"texto": "Por confirmar", "licencia_dicc": null, "varia_por_conjunto": null},
+      "fuentes": []
+    },
+    "DO": {
+      "nombre": "República Dominicana",
+      "region": "Caribe hispano",
+      "dominios": ["gob.do", "gov.do"],
+      "textos_oficiales": {"estado": "reproduccion_permitida", "norma": "Ley 65-00, art. 41", "detalle": "Permite reproducir Constitución, leyes, decretos, ordenanzas, reglamentos, convenios, actos administrativos y decisiones judiciales, indicando la fuente y conforme a la edición oficial, siempre que no esté prohibido", "fuente": "https://www.aduanas.gob.do/media/3yndr4ja/65-00_sobre_derecho_de_autor.pdf"},
+      "acceso_informacion": {"norma": "Ley 200-04", "anio": 2004, "detalle": null},
+      "datos_abiertos": {"norma": null, "detalle": "Por confirmar"},
+      "portal": "datos.gob.do",
+      "licencia_defecto": {"texto": "Por confirmar", "licencia_dicc": null, "varia_por_conjunto": null},
+      "fuentes": []
+    }
+  }
+}

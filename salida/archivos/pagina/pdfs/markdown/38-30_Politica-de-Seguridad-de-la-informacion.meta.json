@@ -1,0 +1,11 @@
+{
+  "estado": "ok",
+  "metodo": "nativo",
+  "confianza_ocr": null,
+  "confianza_nativo": 1.0,
+  "paginas": [
+    "nativo",
+    "nativo"
+  ],
+  "requiere_revision": false
+}

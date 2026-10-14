@@ -1,0 +1,31 @@
+{
+  "estado": "ok",
+  "metodo": "nativo",
+  "confianza_ocr": null,
+  "confianza_nativo": 0.9971913335913108,
+  "paginas": [
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo",
+    "nativo"
+  ],
+  "requiere_revision": false
+}

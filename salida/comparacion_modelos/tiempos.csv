@@ -1,0 +1,13 @@
+modelo,temperatura,gpus,urls,unidades_evaluadas,urls_matizadas,tiempo_carga_s,tiempo_evaluar_s,tiempo_matizar_s,tiempo_total_s,veredictos
+qwen2.5-32b-instruct,0.0,2,341,204,96,244.1,25.6,17.5,288.1,"{""SI"": 36, ""NO"": 51, ""DEPENDE"": 96, ""SIN_TEXTO"": 158}"
+qwen3.6-27b,0.0,2,341,204,10,384.1,25.5,5.5,415.8,"{""SI"": 89, ""NO"": 84, ""DEPENDE"": 10, ""SIN_TEXTO"": 158}"
+qwen2.5-72b-instruct,0.0,4,341,204,118,352.8,36.8,24.1,415.7,"{""DEPENDE"": 118, ""SI"": 50, ""SIN_TEXTO"": 158, ""NO"": 15}"
+qwen3-next-80b-a3b-instruct,0.0,4,341,204,112,503.3,10.0,7.6,522.9,"{""SI"": 53, ""DEPENDE"": 112, ""SIN_TEXTO"": 158, ""NO"": 18}"
+qwen2.5-32b-instruct,0.0,2,341,204,130,94.1,18.1,13.4,127.1,"{""SI"": 24, ""DEPENDE"": 130, ""SIN_TEXTO"": 158, ""NO"": 29}"
+qwen2.5-72b-instruct,0.0,4,341,204,117,145.5,24.5,14.7,186.4,"{""DEPENDE"": 117, ""SI"": 44, ""SIN_TEXTO"": 158, ""NO"": 22}"
+qwen3.6-27b,0.0,2,341,204,0,237.0,36.2,0.0,275.0,"{""SI"": 183, ""SIN_TEXTO"": 158}"
+qwen3-next-80b-a3b-instruct,0.0,4,341,204,90,470.0,5.6,3.3,480.9,"{""SI"": 78, ""DEPENDE"": 90, ""SIN_TEXTO"": 158, ""NO"": 15}"
+qwen2.5-32b-instruct,0.7,2,341,204,117,123.4,18.4,12.8,156.3,"{""SI"": 38, ""DEPENDE"": 117, ""SIN_TEXTO"": 158, ""NO"": 28}"
+qwen3.6-27b,0.7,2,341,204,0,237.2,36.7,0.0,275.6,"{""SI"": 183, ""SIN_TEXTO"": 158}"
+qwen2.5-72b-instruct,0.7,4,341,204,116,357.0,25.7,16.2,400.9,"{""DEPENDE"": 116, ""SI"": 45, ""SIN_TEXTO"": 158, ""NO"": 22}"
+qwen3-next-80b-a3b-instruct,0.7,4,341,204,89,572.3,6.0,3.3,583.7,"{""SI"": 78, ""DEPENDE"": 89, ""SIN_TEXTO"": 158, ""NO"": 16}"
