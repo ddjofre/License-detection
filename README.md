@@ -100,7 +100,7 @@ la URL (el más restrictivo gana) y matiza los DEPENDE en la misma pasada.
 |---|---|
 | `EVAL_MODELO` | `Qwen2.5-32B-Instruct` |
 | `EVAL_SALIDA` | `salida/licencias_evaluadas.csv` |
-| `EVAL_ENDPOINT_GLOB` | `slurm_logs/vllm_endpoint_*.txt` (dónde buscar host/puerto del servidor) |
+| `EVAL_ENDPOINT_GLOB` | `slurm/logs/vllm_endpoint_*.txt` (dónde buscar host/puerto del servidor) |
 
 **Salida**: csv con `url, licencia, veredicto_llm, justificacion_llm,
 respuesta_cruda_llm, nivel_uso_llm, explicacion_nivel_llm`.
@@ -174,6 +174,88 @@ encontrado, o "Ninguna coincide".
 
 **Salida**: `url, licencia_detectada, licencia_asignada_llm,
 justificacion_asignacion_llm`.
+
+## Excepciones legales por país (`referencia/excepciones_latam.{json,csv}`)
+
+Referencia de las excepciones que permiten reutilizar contenido de sitios
+gubernamentales de América Latina aunque el sitio no declare licencia o
+tenga un aviso restrictivo. Orientación general, no asesoría legal.
+**Todavía no está conectado a ningún script** (ver "Próximo paso" abajo).
+
+- **`excepciones_latam.json`**: fuente de verdad, la que debe leer el código.
+  Además de los países trae `tipos_excepcion`, `limites` y, en `_meta`, las
+  clasificaciones (`licencia_explicita`, `excepcion_legal`,
+  `requiere_solicitud`), el orden de revisión y la regla de prioridad.
+- **`excepciones_latam.csv`**: vista plana para revisar a mano (una fila por
+  país, 20 filas). Se genera desde el JSON; si se edita el JSON hay que
+  regenerarlo.
+
+### Columnas del CSV
+
+| # | Columna | Qué contiene |
+|---|---|---|
+| 1 | `codigo` | Código ISO del país (AR, CL, PE…); es la clave en `paises` del JSON |
+| 2 | `pais` | Nombre del país |
+| 3 | `region` | Cono Sur y Brasil, Región andina, México y Centroamérica o Caribe hispano |
+| 4 | `dominios` | Dominios de gobierno, separados por espacio (`gob.ar gov.ar`); sirven para saber de qué país es una URL |
+| 5 | `textos_oficiales_estado` | Si la ley de derecho de autor libera leyes, decretos y sentencias: `excluidos`, `reproduccion_permitida`, `sin_exclusion` o `doctrina` |
+| 6 | `textos_oficiales_norma` | Ley y artículo que lo establecen (por ejemplo, `Ley 64 de 2012, art. 13, num. 2`) |
+| 7 | `textos_oficiales_detalle` | Resumen del artículo y sus condiciones (citar la fuente, respetar el texto oficial, etc.) |
+| 8 | `textos_oficiales_fuente` | URL del texto de la ley usado para verificarlo |
+| 9 | `acceso_informacion_norma` | Ley de acceso a la información pública (transparencia y solicitudes) |
+| 10 | `acceso_informacion_anio` | Año de esa ley |
+| 11 | `acceso_informacion_detalle` | Notas (por ejemplo, "Sin ley general" o "solo cubre al Poder Ejecutivo") |
+| 12 | `datos_abiertos_norma` | Decreto, ley o política de datos abiertos |
+| 13 | `datos_abiertos_detalle` | Notas sobre esa norma |
+| 14 | `portal` | Portal nacional de datos abiertos (vacío si no hay uno verificado) |
+| 15 | `licencia_defecto` | Licencia por defecto del portal, en texto libre |
+| 16 | `licencia_dicc` | Clave de `referencia/dicc_lic.json` que corresponde (`CC0 1.0`, `CC BY 4.0`, `Open Data`); vacío si cambia según el conjunto o no se sabe |
+| 17 | `varia_por_conjunto` | `True` si cada conjunto puede tener otra licencia (revisar la ficha), `False` si hay una sola, vacío si no se sabe |
+| 18 | `fuentes` | URLs de respaldo de la licencia y la norma de datos abiertos, separadas por espacio |
+
+Una celda vacía significa que el dato no existe o no se pudo verificar.
+
+Valores de `textos_oficiales_estado`:
+
+- **`excluidos`**: la ley dice que esos textos no tienen derecho de autor.
+- **`reproduccion_permitida`**: la ley permite reproducirlos libremente si se respeta la edición oficial.
+- **`sin_exclusion`**: la ley no los libera; la excepción no sirve en ese país (AR, CL, BO).
+- **`doctrina`**: los libera la jurisprudencia, no una ley (PR).
+
+Estado de verificación (2026-10-08): `textos_oficiales` está verificado en
+los 20 países contra copias del texto de la ley (WIPO Lex, IMPO, Legispan,
+etc.), no siempre la gaceta oficial ni la última versión consolidada.
+Siguen sin confirmar la licencia por defecto y el portal de BO, EC, GT, SV,
+HN, PR y DO.
+
+```python
+import json
+
+with open("referencia/excepciones_latam.json", encoding="utf-8") as f:
+    exc = json.load(f)
+
+pe = exc["paises"]["PE"]
+pe["textos_oficiales"]["estado"]         # "excluidos"
+pe["portal"]                             # "datosabiertos.gob.pe"
+pe["licencia_defecto"]["licencia_dicc"]  # None (varía por conjunto)
+```
+
+### Próximo paso: incorporarlo al pipeline
+
+Pendiente. La idea es usarlo después de `01_detectar_licencia.py`, cuando un
+sitio gubernamental no tiene licencia o tiene una restrictiva:
+
+1. Identificar el país de la URL por `dominios`.
+2. Si el contenido está en el portal nacional (`portal`), usar
+   `licencia_defecto` / `licencia_dicc` (la licencia del portal prevalece
+   sobre el aviso legal genérico del sitio).
+3. Si es un texto oficial (ley, decreto, sentencia) y el estado es
+   `excluidos`, `reproduccion_permitida` o `doctrina`, clasificar como
+   `excepcion_legal` citando `textos_oficiales.norma`.
+4. Si nada aplica, clasificar como `requiere_solicitud`.
+
+En todos los casos se mantienen los `limites` del JSON (datos personales,
+información reservada, obras de terceros, emblemas, condiciones técnicas).
 
 ## Carpetas
 

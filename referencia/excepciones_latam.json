@@ -90,7 +90,7 @@
     "CL": {
       "nombre": "Chile",
       "region": "Cono Sur y Brasil",
-      "dominios": ["gob.cl", "cl"],
+      "dominios": ["gob.cl"],
       "textos_oficiales": {"estado": "sin_exclusion", "norma": "Ley 17.336", "detalle": "Sin exclusión expresa de textos oficiales. Art. 88: el Estado y sus organismos son titulares del derecho de autor sobre las obras de sus funcionarios, salvo que las liberen por resolución.", "fuente": "https://www.wipo.int/wipolex/es/legislation/details/18880"},
       "acceso_informacion": {"norma": "Ley 20.285", "anio": 2008, "detalle": null},
       "datos_abiertos": {"norma": "Términos y condiciones de datos.gob.cl", "detalle": null},
@@ -258,7 +258,7 @@
     "CU": {
       "nombre": "Cuba",
       "region": "Caribe hispano",
-      "dominios": ["gob.cu", "cu"],
+      "dominios": ["gob.cu"],
       "textos_oficiales": {"estado": "excluidos", "norma": "Ley 154/2022, art. 9, inc. d", "detalle": "No son objeto de protección el texto oficial de orden legislativo, administrativo o judicial, ni su traducción oficial (también excluye datos y hechos, inc. b)", "fuente": "https://www.wipo.int/wipolex/es/legislation/details/21621"},
       "acceso_informacion": {"norma": null, "anio": null, "detalle": "Sin ley general de acceso verificada"},
       "datos_abiertos": {"norma": null, "detalle": "Sin norma general verificada"},

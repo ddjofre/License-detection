@@ -56,6 +56,7 @@ import json
 import re
 import time
 from pathlib import Path
+from urllib.parse import urlparse
 
 # respuesta_cruda_llm puede llevar texto SIN recortar (el respaldo de
 # compatibilidad de unidades_de_fila lee comentarios_licencia completo, sin
@@ -86,13 +87,78 @@ RE_RECORTADO = re.compile(r"\[\.\.\.recortado -- texto completo en: (.+?)\]")
 MODELO = os.environ.get(
     "EVAL_MODELO", "/workspace1-ranokau/projects/datatrainlatamgpt/models/Qwen2.5-32B-Instruct"
 )
-ENDPOINT_GLOB = os.environ.get("EVAL_ENDPOINT_GLOB", "slurm_logs/vllm_endpoint_*.txt")
+ENDPOINT_GLOB = os.environ.get("EVAL_ENDPOINT_GLOB", "slurm/logs/vllm_endpoint_*.txt")
 MAX_CHARS_LICENCIA = 5000  # margen bajo max_model_len=4096 tokens del servidor
 # (cota en caracteres, no en tokens -- texto denso puede tener bastante menos
 # de los ~3.5 caracteres por token que asume esta cota, así que se dejó
 # margen extra -- confirmado con un caso real en la versión anterior). Acá
 # aplica POR UNIDAD, no sobre el total concatenado de la URL.
 POLL_SEGUNDOS = 30  # espera entre relecturas de ENTRADA cuando no hay filas nuevas
+
+# Referencia por país (LatAm) de excepciones legales a derecho de autor para
+# textos oficiales, leyes de acceso a la información y licencias por
+# defecto de portales de datos abiertos -- se usa SOLO al matizar un
+# DEPENDE (ver PROMPT_MATIZ/bloque_contexto_pais), para que el modelo sepa
+# si, además de lo que diga el texto encontrado en el sitio, existe una
+# norma del país de origen que amplíe o restrinja el uso. No cubre todas
+# las URLs evaluadas (solo dominios gubernamentales de los 20 países/
+# territorios de la lista) -- en el resto, el bloque queda vacío.
+EXCEPCIONES_LATAM = Path("referencia/excepciones_latam_v1.csv")
+
+
+def _cargar_excepciones_latam(ruta: Path = EXCEPCIONES_LATAM) -> list[dict]:
+    with open(ruta, encoding="utf-8") as f:
+        return [{**fila, "_dominios": fila["dominios"].split()} for fila in csv.DictReader(f)]
+
+
+_EXCEPCIONES_LATAM = _cargar_excepciones_latam()
+
+
+def _resumen_excepcion(fila: dict) -> str:
+    partes = [f"- País: {fila['pais']}"]
+    if fila.get("textos_oficiales_estado"):
+        detalle = f" -- {fila['textos_oficiales_detalle']}" if fila.get("textos_oficiales_detalle") else ""
+        norma = f" ({fila['textos_oficiales_norma']})" if fila.get("textos_oficiales_norma") else ""
+        partes.append(f"- Textos oficiales{norma}: {fila['textos_oficiales_estado']}{detalle}")
+    if fila.get("licencia_defecto"):
+        partes.append(f"- Licencia/uso por defecto en datos abiertos: {fila['licencia_defecto']}")
+    if fila.get("licencia_dicc"):
+        partes.append(f"- Equivale a la licencia conocida: {fila['licencia_dicc']}")
+    if fila.get("varia_por_conjunto") == "True":
+        partes.append(
+            "- OJO: esto puede variar según el conjunto de datos específico, no asumir que aplica igual a todos."
+        )
+    return "\n".join(partes)
+
+
+def contexto_pais_de_url(url: str) -> str:
+    """Busca en EXCEPCIONES_LATAM el país cuyo dominio matchea el host de
+    `url` (match exacto o de subdominio -- "datos.gob.ar" matchea "gob.ar",
+    pero "malgob.ar" no). Devuelve un resumen legible o "" si no matchea
+    ningún país de la lista."""
+    host = (urlparse(url).hostname or "").lower()
+    if not host:
+        return ""
+    for fila in _EXCEPCIONES_LATAM:
+        for dominio in fila["_dominios"]:
+            if host == dominio or host.endswith("." + dominio):
+                return _resumen_excepcion(fila)
+    return ""
+
+
+def bloque_contexto_pais(url: str) -> str:
+    """Bloque opcional para insertar en PROMPT_MATIZ vía {contexto_pais} --
+    vacío si la URL no matchea ningún país de EXCEPCIONES_LATAM."""
+    contexto = contexto_pais_de_url(url)
+    if not contexto:
+        return ""
+    return (
+        "\n\nContexto legal del país de origen (de referencia -- "
+        "investigación previa, no siempre verificado contra la fuente "
+        "primaria; no lo tomes como definitivo si contradice lo que dice "
+        "el texto encontrado arriba):\n" + contexto
+    )
+
 
 PROMPT = """Eres un asistente legal. Te paso un texto encontrado en el sitio de \
 origen de un contenido, relacionado con su uso permitido -- puede ser una \
@@ -119,6 +185,10 @@ un nivel del 0 al 5 de qué tan cerca está de poder usarse:
 4 = probablemente SI se puede usar
 5 = definitivamente SI se puede usar
 
+Si al final se incluye un "Contexto legal del país de origen", debe \
+considerarse como referencia adicional al decidir el nivel -- pero sin \
+tomarlo como definitivo si contradice lo que indica el texto encontrado.
+
 Responde SOLO en este formato:
 NIVEL: <0-5>
 EXPLICACION: <una o dos frases explicando por qué ese nivel>
@@ -127,7 +197,7 @@ Texto encontrado:
 {licencia}
 
 Tu evaluación anterior:
-Justificación: {justificacion_llm}
+Justificación: {justificacion_llm}{contexto_pais}
 """
 
 CAMPOS_SALIDA = [
@@ -200,10 +270,11 @@ def parsear_nivel(texto: str) -> tuple[str, str]:
     return nivel, explicacion
 
 
-def preguntar_nivel(port: int, texto_licencia: str, justificacion_llm: str) -> tuple[str, str]:
+def preguntar_nivel(port: int, texto_licencia: str, justificacion_llm: str, url: str = "") -> tuple[str, str]:
     prompt = PROMPT_MATIZ.format(
         licencia=texto_licencia[:MAX_CHARS_LICENCIA],
         justificacion_llm=justificacion_llm,
+        contexto_pais=bloque_contexto_pais(url),
     )
     resp = requests.post(
         f"http://localhost:{port}/v1/chat/completions",
@@ -389,7 +460,7 @@ def main() -> None:
                     texto_depende = texto_depende_de(detalle)
                     if texto_depende:
                         try:
-                            nivel, explicacion_nivel = preguntar_nivel(port, texto_depende, justificacion)
+                            nivel, explicacion_nivel = preguntar_nivel(port, texto_depende, justificacion, url)
                         except (ErrorLLM, requests.RequestException) as e:
                             explicacion_nivel = f"Error al matizar: {e}"
                     else:

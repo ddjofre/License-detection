@@ -248,6 +248,7 @@ def main() -> None:
             prompt = ev.PROMPT_MATIZ.format(
                 licencia=texto_depende[:ev.MAX_CHARS_LICENCIA],
                 justificacion_llm=justificacion,
+                contexto_pais=ev.bloque_contexto_pais(filas[fila_idx]["url"]),
             )
             prompt_recortado = recortar_a_tokens(tokenizer, prompt, max_tokens_prompt_matiz)
             if prompt_recortado is not prompt:
